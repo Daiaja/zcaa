@@ -1,0 +1,22 @@
+=== BUILD 7.4  Sep 15 2026 02:32:34  dll=00007ffb1c790000 ===
+Homelander Heat Vision BUILD=v94-converge — key=0x4A mode=0 hold=1 heroHandleOverride=0x00000000
+scan: QueueEvent=00007ff794d01dd0  leaSite=00007ff7958b1981  ActorFromHandle=00007ff794b6b5e0
+g_EventSystem=00007ff79e01ad40  (lea-site call -> 00007ff794d01dd0, QueueEvent pattern -> 00007ff794d01dd0, MATCH)
+QueueEvent hook SKIPPED (HookEvents=0) - hero handle learning disabled
+HV: ExecThunk         00007ff794ec4ac0 rva 2C04AC0 want 2C04AC0 OK
+HV: QueryInit         00007ff794e92260 rva 2BD2260 want 2BD2260 OK
+HV: ApplyCollRequest  00007ff794e9b050 rva 2BDB050 want 2BDB050 OK
+HV: SetIgnoreActor    00007ff794e9af40 rva 2BDAF40 want 2BDAF40 OK
+HV: GetActorCollReq   00007ff794ea84f0 rva 2BE84F0 want 2BE84F0 OK
+HV: ResultCount       00007ff794eb5c30 rva 2BF5C30 want 2BF5C30 OK
+HV: ResultAt          00007ff794eb5aa0 rva 2BF5AA0 want 2BF5AA0 OK
+HV: ResultPos+0x18    00007ff794eb5dc0 rva 2BF5DC0 want 2BF5DC0 OK
+HV: LocatorTransform  00007ff794dda2c0 rva 2B1A2C0 want 2B1A2C0 OK
+HV: LocatorByHash     00007ff794dc0c00 rva 2B00C00 want 2B00C00 OK
+HV: LocToWorld        00007ff7953dba50 rva 311BA50 want 311BA50 OK
+HV: worldPtr=00007ff79c41f5d0 -> 00007ff79e372110
+HV: resolver capture hooked @00007ff794dbe700
+HV: PRIMARY host LocatorTransform hooked (idle-disabled)
+HV: heroRegistry=00007ff79e6f56c0
+HV: ARMED - 1 timing hosts
+ready
