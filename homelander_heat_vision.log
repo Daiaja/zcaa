@@ -1,0 +1,82 @@
+=== BUILD 7.4  Sep 15 2026 15:13:29  dll=00007ffdf1070000 ===
+Homelander Heat Vision BUILD=v96-aimrot-safe — key=0x4A mode=0 hold=1 heroHandleOverride=0x00000000
+scan: QueueEvent=00007ff637fb1dd0  leaSite=00007ff638b61981  ActorFromHandle=00007ff637e1b5e0
+g_EventSystem=00007ff6412cad40  (lea-site call -> 00007ff637fb1dd0, QueueEvent pattern -> 00007ff637fb1dd0, MATCH)
+QueueEvent hook SKIPPED (HookEvents=0) - hero handle learning disabled
+HV: ExecThunk         00007ff638174ac0 rva 2C04AC0 want 2C04AC0 OK
+HV: QueryInit         00007ff638142260 rva 2BD2260 want 2BD2260 OK
+HV: ApplyCollRequest  00007ff63814b050 rva 2BDB050 want 2BDB050 OK
+HV: SetIgnoreActor    00007ff63814af40 rva 2BDAF40 want 2BDAF40 OK
+HV: GetActorCollReq   00007ff6381584f0 rva 2BE84F0 want 2BE84F0 OK
+HV: ResultCount       00007ff638165c30 rva 2BF5C30 want 2BF5C30 OK
+HV: ResultAt          00007ff638165aa0 rva 2BF5AA0 want 2BF5AA0 OK
+HV: ResultPos+0x18    00007ff638165dc0 rva 2BF5DC0 want 2BF5DC0 OK
+HV: LocatorTransform  00007ff63808a2c0 rva 2B1A2C0 want 2B1A2C0 OK
+HV: LocatorByHash     00007ff638070c00 rva 2B00C00 want 2B00C00 OK
+HV: LocToWorld        00007ff63868ba50 rva 311BA50 want 311BA50 OK
+HV: worldPtr=00007ff63f6cf5d0 -> 00007ff641622110
+HV: resolver capture hooked @00007ff63806e700
+HV: PRIMARY host LocatorTransform hooked (idle-disabled)
+HV: heroRegistry=00007ff6419a56c0
+HV: ARMED - 1 timing hosts
+ready
+HV: hero from registry slot 0 -> handle 0x00209AF9
+HV: cast attempt #1
+DIAG igLoc_camera   pos= 618.365    1.000   77.825 | fwd=-0.985 -0.000 -0.172 | up=-0.000  1.000 -0.000 | right=-0.172  0.000  0.985
+DIAG igLoc_head     pos= 618.172    2.613   77.793 | fwd=-0.933 -0.236 -0.272 | up=-0.200  0.968 -0.151 | right=-0.299  0.086  0.950
+DIAG LaserSt_LF     pos= 618.001    2.698   77.769 | fwd=-0.933 -0.236 -0.272 | up=-0.200  0.968 -0.151 | right=-0.299  0.086  0.950
+DIAG LaserSt_RT     pos= 618.021    2.693   77.704 | fwd=-0.933 -0.236 -0.272 | up=-0.200  0.968 -0.151 | right=-0.299  0.086  0.950
+DIAG AIMPOINT hit= 617.767    1.000   77.721 dist=   0.61 (crosshair target)
+DIAG   LF eye->aim=-0.137 -0.990 -0.028  angle vs eye fwd= 68.4 deg
+DIAG   RT eye->aim=-0.149 -0.989  0.010  angle vs eye fwd= 68.3 deg
+DIAG endLF local=  0.0358   0.1201  25.1463
+DIAG endRT local= -0.0320   0.1211  25.1463
+DIAG ownerMat r0= -0.171   0.000   0.985  r1=  0.000   1.000   0.000  r2= -0.985   0.000  -0.171  t=  618.286     1.000    77.812
+DIAG ----
+HV: AIM crosshair -> 612.64 2.70 76.84
+HV: saved LF start 0.0358 0.1201 0.1463  end 0.0358 0.1201 25.1463
+HV:   LF hit[0/1] d=5.45  at 612.6 2.4 76.8
+HV: LF saved start rot
+HV: LF AIMED fwd=-0.168 0.280 0.945 (localDist=5.93)
+HV: LF dist=5.45 refLen=24.91 t=0.219 -> Z 5.729 (was 25.146)
+HV: saved RT start -0.0320 0.1211 0.1463  end -0.0320 0.1211 25.1463
+HV:   RT hit[0/1] d=5.47  at 612.6 2.3 76.8
+HV: RT saved start rot
+HV: RT dist=5.47 refLen=24.92 t=0.220 -> Z 5.729 (was 25.146)
+QueueEvent(0x14FD55F6, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 00000202c91e0d90
+QueueEvent(0x14FD55F6, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 00000202c91e0ed0
+QueueEvent(0x14FD55F6, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 00000202c91e1010
+laser ON  (pre-cast then spawn)
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: beamRef=00000095d19ed120  endW(612.6 2.3 76.8)  cached-endpoint matches at (rel to ref): (none)
+HV: heartbeat - 1 casts in last second (hook alive)
+HV: cast attempt #2
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xA92009BB, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 00000202c9205290
+QueueEvent(0xA92009BB, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 00000202c92053d0
+QueueEvent(0xA92009BB, -> 0x00209AF9 pos 618.3 1.0 77.8) [component-style: count=1 flag=1 posNULL] -> 00000202c9205510
+HV: restored LF end to 0.0358 0.1201 25.1463
+HV: restored LF start rot
+HV: restored RT end to -0.0320 0.1211 25.1463
+HV: restored RT start rot
+laser OFF (LocatorTransform hook disabled)
+disabled
