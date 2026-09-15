@@ -1,0 +1,548 @@
+=== BUILD 7.4  Sep 15 2026 17:42:32  dll=00007ffdd75d0000 ===
+Homelander Heat Vision BUILD=v103-fire — key=0x4A mode=0 hold=1 heroHandleOverride=0x00000000
+scan: QueueEvent=00007ff70d711dd0  leaSite=00007ff70e2c1981  ActorFromHandle=00007ff70d57b5e0
+g_EventSystem=00007ff716a2ad40  (lea-site call -> 00007ff70d711dd0, QueueEvent pattern -> 00007ff70d711dd0, MATCH)
+QueueEvent hook SKIPPED (HookEvents=0) - hero handle learning disabled
+HV: ExecThunk         00007ff70d8d4ac0 rva 2C04AC0 want 2C04AC0 OK
+HV: QueryInit         00007ff70d8a2260 rva 2BD2260 want 2BD2260 OK
+HV: ApplyCollRequest  00007ff70d8ab050 rva 2BDB050 want 2BDB050 OK
+HV: SetIgnoreActor    00007ff70d8aaf40 rva 2BDAF40 want 2BDAF40 OK
+HV: GetActorCollReq   00007ff70d8b84f0 rva 2BE84F0 want 2BE84F0 OK
+HV: ResultCount       00007ff70d8c5c30 rva 2BF5C30 want 2BF5C30 OK
+HV: ResultAt          00007ff70d8c5aa0 rva 2BF5AA0 want 2BF5AA0 OK
+HV: ResultPos+0x18    00007ff70d8c5dc0 rva 2BF5DC0 want 2BF5DC0 OK
+HV: LocatorTransform  00007ff70d7ea2c0 rva 2B1A2C0 want 2B1A2C0 OK
+HV: LocatorByHash     00007ff70d7d0c00 rva 2B00C00 want 2B00C00 OK
+HV: LocToWorld        00007ff70ddeba50 rva 311BA50 want 311BA50 OK
+HV: worldPtr=00007ff714e2f5d0 -> 00007ff716d82110
+HV: resolver capture hooked @00007ff70d7ce700
+HV: PRIMARY host LocatorTransform hooked (idle-disabled)
+HV: heroRegistry=00007ff7171056c0
+HV: ARMED - 1 timing hosts
+ready
+HV: hero from registry slot 0 -> handle 0x00208583
+HV: cast attempt #1
+HV: PROBE aimSource    pos=  563.79    41.50   617.63 fwd= 0.000  0.000 -1.000
+HV: PROBE aimTarget    pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE cameraTarget pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE camera       pos=  563.79    40.18   618.95 fwd= 0.001 -0.000 -1.000
+HV: AIM cam=563.79 40.18 618.95 fwd=0.001 -0.000 -1.000 | eye=563.77 40.83 618.43 | hit=563.79 40.17 611.20 d=7.8
+HV: saved LF start 0.0358 0.1201 0.1463  end 0.0358 0.1201 25.1463
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV: saved RT start -0.0320 0.1211 0.1463  end -0.0320 0.1211 25.1463
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+QueueEvent(0x14FD55F6, -> 0x00208583 pos 563.8 40.2 619.0) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e0d90
+QueueEvent(0x14FD55F6, -> 0x00208583 pos 563.8 40.2 619.0) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e0ed0
+QueueEvent(0x14FD55F6, -> 0x00208583 pos 563.8 40.2 619.0) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e1010
+laser ON  (pre-cast then spawn)
+HV: beamRef=0000007e6cefce80  endW(563.8 40.7 611.2)  cached-endpoint matches at (rel to ref): (none)
+HV: heartbeat - 1 casts in last second (hook alive)
+HV: cast attempt #2
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV: cast attempt #3
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.8 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.7 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.7 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.7 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.23  at 563.7 40.7 611.2
+HV: LF dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.24  at 563.7 40.7 611.2
+HV: LF dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.293 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.24  at 563.7 40.7 611.2
+HV: LF dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.293 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.24  at 563.7 40.7 611.2
+HV: LF dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.293 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.24  at 563.7 40.7 611.2
+HV: LF dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.8 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.293 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.25  at 563.7 40.7 611.2
+HV: LF dist=7.25 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.7 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.25  at 563.7 40.7 611.2
+HV: LF dist=7.25 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.7 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.26  at 563.7 40.7 611.2
+HV: LF dist=7.26 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.23  at 563.7 40.7 611.2
+HV: RT dist=7.23 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.26  at 563.7 40.7 611.2
+HV: LF dist=7.26 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.7 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.27  at 563.6 40.7 611.2
+HV: LF dist=7.27 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.24  at 563.7 40.7 611.2
+HV: RT dist=7.24 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.28  at 563.6 40.7 611.2
+HV: LF dist=7.28 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.25  at 563.7 40.7 611.2
+HV: RT dist=7.25 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.28  at 563.6 40.7 611.2
+HV: LF dist=7.28 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.25  at 563.7 40.7 611.2
+HV: RT dist=7.25 refLen=24.63 t=0.294 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.29  at 563.6 40.7 611.2
+HV: LF dist=7.29 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.25  at 563.7 40.7 611.2
+HV: RT dist=7.25 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.30  at 563.6 40.7 611.2
+HV: LF dist=7.30 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.26  at 563.7 40.7 611.2
+HV: RT dist=7.26 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.30  at 563.6 40.7 611.2
+HV: LF dist=7.30 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.27  at 563.7 40.7 611.2
+HV: RT dist=7.27 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV: PROBE aimSource    pos=  563.79    41.50   617.63 fwd= 0.000  0.000 -1.000
+HV: PROBE aimTarget    pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE cameraTarget pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE camera       pos=  563.79    40.18   618.95 fwd=-0.000 -0.000 -1.000
+HV: AIM cam=563.79 40.18 618.95 fwd=-0.000 -0.000 -1.000 | eye=563.53 40.83 618.51 | hit=563.78 40.18 611.20 d=7.8
+HV:   LF hit[0/1] d=7.31  at 563.6 40.7 611.2
+HV: LF dist=7.31 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.27  at 563.6 40.7 611.2
+HV: RT dist=7.27 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.32  at 563.6 40.7 611.2
+HV: LF dist=7.32 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.28  at 563.6 40.7 611.2
+HV: RT dist=7.28 refLen=24.63 t=0.295 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.33  at 563.6 40.7 611.2
+HV: LF dist=7.33 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.28  at 563.6 40.7 611.2
+HV: RT dist=7.28 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.34  at 563.6 40.7 611.2
+HV: LF dist=7.34 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.29  at 563.6 40.7 611.2
+HV: RT dist=7.29 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.34  at 563.6 40.7 611.2
+HV: LF dist=7.34 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.30  at 563.6 40.7 611.2
+HV: RT dist=7.30 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.35  at 563.6 40.7 611.2
+HV: LF dist=7.35 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.30  at 563.6 40.7 611.2
+HV: RT dist=7.30 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.36  at 563.6 40.7 611.2
+HV: LF dist=7.36 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.31  at 563.6 40.7 611.2
+HV: RT dist=7.31 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.37  at 563.6 40.7 611.2
+HV: LF dist=7.37 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.32  at 563.6 40.7 611.2
+HV: RT dist=7.32 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.38  at 563.5 40.7 611.2
+HV: LF dist=7.38 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.33  at 563.6 40.7 611.2
+HV: RT dist=7.33 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.39  at 563.5 40.7 611.2
+HV: LF dist=7.39 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.33  at 563.6 40.7 611.2
+HV: RT dist=7.33 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.40  at 563.5 40.7 611.2
+HV: LF dist=7.40 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.34  at 563.6 40.7 611.2
+HV: RT dist=7.34 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.41  at 563.5 40.7 611.2
+HV: LF dist=7.41 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.35  at 563.6 40.7 611.2
+HV: RT dist=7.35 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.42  at 563.5 40.7 611.2
+HV: LF dist=7.42 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.36  at 563.6 40.7 611.2
+HV: RT dist=7.36 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.43  at 563.5 40.7 611.2
+HV: LF dist=7.43 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.37  at 563.6 40.7 611.2
+HV: RT dist=7.37 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.44  at 563.5 40.7 611.2
+HV: LF dist=7.44 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.39  at 563.6 40.7 611.2
+HV: RT dist=7.39 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.45  at 563.5 40.7 611.2
+HV: LF dist=7.45 refLen=24.63 t=0.303 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.40  at 563.5 40.7 611.2
+HV: RT dist=7.40 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.46  at 563.5 40.7 611.2
+HV: LF dist=7.46 refLen=24.63 t=0.303 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.41  at 563.5 40.7 611.2
+HV: RT dist=7.41 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.47  at 563.5 40.7 611.2
+HV: LF dist=7.47 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.42  at 563.5 40.7 611.2
+HV: RT dist=7.42 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.48  at 563.5 40.7 611.2
+HV: LF dist=7.48 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.43  at 563.5 40.7 611.2
+HV: RT dist=7.43 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.49  at 563.5 40.7 611.2
+HV: LF dist=7.49 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.44  at 563.5 40.7 611.2
+HV: RT dist=7.44 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.50  at 563.5 40.7 611.2
+HV: LF dist=7.50 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.44  at 563.5 40.7 611.2
+HV: RT dist=7.44 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.50  at 563.5 40.7 611.2
+HV: LF dist=7.50 refLen=24.63 t=0.305 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.45  at 563.5 40.7 611.2
+HV: RT dist=7.45 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.50  at 563.5 40.7 611.2
+HV: LF dist=7.50 refLen=24.63 t=0.305 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.45  at 563.5 40.7 611.2
+HV: RT dist=7.45 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.50  at 563.5 40.7 611.2
+HV: LF dist=7.50 refLen=24.63 t=0.305 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.45  at 563.5 40.7 611.2
+HV: RT dist=7.45 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.50  at 563.5 40.7 611.2
+HV: LF dist=7.50 refLen=24.63 t=0.305 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.45  at 563.5 40.7 611.2
+HV: RT dist=7.45 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.50  at 563.5 40.7 611.2
+HV: LF dist=7.50 refLen=24.63 t=0.305 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.44  at 563.5 40.7 611.2
+HV: RT dist=7.44 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.50  at 563.5 40.7 611.2
+HV: LF dist=7.50 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.44  at 563.5 40.7 611.2
+HV: RT dist=7.44 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.49  at 563.5 40.7 611.2
+HV: LF dist=7.49 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.44  at 563.5 40.7 611.2
+HV: RT dist=7.44 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.49  at 563.5 40.7 611.2
+HV: LF dist=7.49 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.43  at 563.5 40.7 611.2
+HV: RT dist=7.43 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.48  at 563.5 40.7 611.2
+HV: LF dist=7.48 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.43  at 563.5 40.7 611.2
+HV: RT dist=7.43 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.48  at 563.5 40.7 611.2
+HV: LF dist=7.48 refLen=24.63 t=0.304 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.42  at 563.5 40.7 611.2
+HV: RT dist=7.42 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.47  at 563.5 40.7 611.2
+HV: LF dist=7.47 refLen=24.63 t=0.303 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.42  at 563.5 40.7 611.2
+HV: RT dist=7.42 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.47  at 563.5 40.7 611.2
+HV: LF dist=7.47 refLen=24.63 t=0.303 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.41  at 563.5 40.7 611.2
+HV: RT dist=7.41 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.46  at 563.5 40.7 611.2
+HV: LF dist=7.46 refLen=24.63 t=0.303 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.40  at 563.5 40.7 611.2
+HV: RT dist=7.40 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.45  at 563.5 40.7 611.2
+HV: LF dist=7.45 refLen=24.63 t=0.303 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.40  at 563.5 40.7 611.2
+HV: RT dist=7.40 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.44  at 563.5 40.7 611.2
+HV: LF dist=7.44 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.38  at 563.6 40.7 611.2
+HV: RT dist=7.38 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.43  at 563.5 40.7 611.2
+HV: LF dist=7.43 refLen=24.63 t=0.302 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.37  at 563.6 40.7 611.2
+HV: RT dist=7.37 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.42  at 563.5 40.7 611.2
+HV: LF dist=7.42 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.36  at 563.6 40.7 611.2
+HV: RT dist=7.36 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.42  at 563.5 40.7 611.2
+HV: LF dist=7.42 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.36  at 563.6 40.7 611.2
+HV: RT dist=7.36 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.41  at 563.5 40.7 611.2
+HV: LF dist=7.41 refLen=24.63 t=0.301 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.35  at 563.6 40.7 611.2
+HV: RT dist=7.35 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.40  at 563.5 40.7 611.2
+HV: LF dist=7.40 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.34  at 563.6 40.7 611.2
+HV: RT dist=7.34 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.39  at 563.6 40.7 611.2
+HV: LF dist=7.39 refLen=24.63 t=0.300 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.33  at 563.6 40.7 611.2
+HV: RT dist=7.33 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.37  at 563.6 40.7 611.2
+HV: LF dist=7.37 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.32  at 563.6 40.7 611.2
+HV: RT dist=7.32 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.36  at 563.6 40.7 611.2
+HV: LF dist=7.36 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.31  at 563.6 40.7 611.2
+HV: RT dist=7.31 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.35  at 563.6 40.7 611.2
+HV: LF dist=7.35 refLen=24.63 t=0.299 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.30  at 563.6 40.7 611.2
+HV: RT dist=7.30 refLen=24.63 t=0.297 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.34  at 563.6 40.7 611.2
+HV: LF dist=7.34 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.30  at 563.6 40.7 611.2
+HV: RT dist=7.30 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.34  at 563.6 40.7 611.2
+HV: LF dist=7.34 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.29  at 563.6 40.7 611.2
+HV: RT dist=7.29 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV:   LF hit[0/1] d=7.33  at 563.6 40.7 611.2
+HV: LF dist=7.33 refLen=24.63 t=0.298 -> Z 7.754 (was 25.146)
+HV:   RT hit[0/1] d=7.28  at 563.6 40.7 611.2
+HV: RT dist=7.28 refLen=24.63 t=0.296 -> Z 7.754 (was 25.146)
+HV: beamRef=0000007e6cefce80  endW(563.7 40.7 611.2)  cached-endpoint matches at (rel to ref): (none)
+HV: heartbeat - 104 casts in last second (hook alive)
+HV: PROBE aimSource    pos=  563.79    41.50   617.63 fwd= 0.000  0.000 -1.000
+HV: PROBE aimTarget    pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE cameraTarget pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE camera       pos=  563.79    40.18   618.95 fwd= 0.000 -0.000 -1.000
+HV: AIM cam=563.79 40.18 618.95 fwd=0.000 -0.000 -1.000 | eye=563.60 40.89 618.48 | hit=563.79 40.18 611.20 d=7.8
+HV: PROBE aimSource    pos=  563.79    41.50   617.63 fwd= 0.000  0.000 -1.000
+HV: PROBE aimTarget    pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE cameraTarget pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE camera       pos=  563.79    40.18   618.95 fwd=-0.001 -0.001 -1.000
+HV: AIM cam=563.79 40.18 618.95 fwd=-0.001 -0.001 -1.000 | eye=563.46 40.84 618.59 | hit=563.78 40.17 611.20 d=7.8
+HV: heartbeat - 98 casts in last second (hook alive)
+HV: beamRef=0000007e6cefce80  endW(563.6 40.6 611.2)  cached-endpoint matches at (rel to ref): (none)
+HV: PROBE aimSource    pos=  563.79    41.50   617.63 fwd= 0.000  0.000 -1.000
+HV: PROBE aimTarget    pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE cameraTarget pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE camera       pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: AIM cam=563.79 40.18 618.95 fwd=0.000 0.000 -1.000 | eye=563.51 40.82 618.54 | hit=563.79 40.18 611.20 d=7.8
+HV: PROBE aimSource    pos=  563.79    41.50   617.63 fwd= 0.000  0.000 -1.000
+HV: PROBE aimTarget    pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE cameraTarget pos=  563.79    40.18   618.95 fwd= 0.000  0.000 -1.000
+HV: PROBE camera       pos=  563.79    40.18   618.95 fwd= 0.000 -0.001 -1.000
+HV: AIM cam=563.79 40.18 618.95 fwd=0.000 -0.001 -1.000 | eye=563.77 40.81 618.44 | hit=563.79 40.17 611.20 d=7.8
+QueueEvent(0xA92009BB, -> 0x00208583 pos 563.8 40.2 619.0) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e0d90
+QueueEvent(0xA92009BB, -> 0x00208583 pos 563.8 40.2 619.0) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e0ed0
+QueueEvent(0xA92009BB, -> 0x00208583 pos 563.8 40.2 619.0) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e1010
+HV: restored LF end to 0.0358 0.1201 25.1463
+HV: restored RT end to -0.0320 0.1211 25.1463
+laser OFF (LocatorTransform hook disabled)
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: AIM cam=610.21 0.85 570.09 fwd=0.957 0.000 -0.289 | eye=610.42 2.45 570.04 | hit=633.96 0.86 562.92 d=24.8
+HV: saved LF start 0.0358 0.1201 0.1463  end 0.0358 0.1201 25.1463
+HV: saved RT start -0.0320 0.1211 0.1463  end -0.0320 0.1211 25.1463
+QueueEvent(0x14FD55F6, -> 0x00208583 pos 610.2 0.9 570.1) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e0d90
+QueueEvent(0x14FD55F6, -> 0x00208583 pos 610.2 0.9 570.1) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e0ed0
+QueueEvent(0x14FD55F6, -> 0x00208583 pos 610.2 0.9 570.1) [component-style: count=1 flag=1 posNULL] -> 000001a7e35e1010
+laser ON  (pre-cast then spawn)
+HV: beamRef=0000007e6cefce80  endW(617.5 2.0 568.0)  cached-endpoint matches at (rel to ref): (none)
+HV: heartbeat - 100 casts in last second (hook alive)
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.958  0.001 -0.288
+HV: AIM cam=610.21 0.85 570.09 fwd=0.958 0.001 -0.288 | eye=610.53 2.19 570.09 | hit=801.71 0.99 512.42 d=200.0
+HV: beamRef=0000007e6cefce80  endW(616.6 1.9 568.4)  cached-endpoint matches at (rel to ref): (none)
+HV: heartbeat - 89 casts in last second (hook alive)
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.957 -0.000 -0.289
+HV: AIM cam=610.21 0.85 570.09 fwd=0.957 -0.000 -0.289 | eye=610.42 2.20 570.39 | hit=716.71 0.84 537.96 d=111.2
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.957  0.001 -0.289
+HV: AIM cam=610.21 0.85 570.09 fwd=0.957 0.001 -0.289 | eye=610.45 2.24 569.91 | hit=633.97 0.86 562.92 d=24.8
+HV: heartbeat - 88 casts in last second (hook alive)
+HV: beamRef=0000007e6cefce80  endW(616.3 1.9 568.0)  cached-endpoint matches at (rel to ref): (none)
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.20     0.85   570.08 fwd= 0.957  0.000 -0.289
+HV: AIM cam=610.20 0.85 570.08 fwd=0.957 0.000 -0.289 | eye=610.28 2.20 569.74 | hit=633.91 0.85 562.91 d=24.8
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.20     0.85   570.08 fwd= 0.957 -0.000 -0.289
+HV: AIM cam=610.20 0.85 570.08 fwd=0.957 -0.000 -0.289 | eye=610.26 2.22 569.78 | hit=615.05 0.85 568.62 d=5.1
+HV: heartbeat - 78 casts in last second (hook alive)
+HV: beamRef=0000007e6cefce80  endW(616.6 1.9 568.3)  cached-endpoint matches at (rel to ref): (none)
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.957  0.001 -0.289
+HV: AIM cam=610.21 0.85 570.09 fwd=0.957 0.001 -0.289 | eye=610.57 2.21 570.15 | hit=801.68 0.95 512.33 d=200.0
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.957 -0.000 -0.289
+HV: AIM cam=610.21 0.85 570.09 fwd=0.957 -0.000 -0.289 | eye=610.48 2.26 570.15 | hit=716.70 0.82 537.94 d=111.2
+HV: heartbeat - 93 casts in last second (hook alive)
+HV: beamRef=0000007e6cefce80  endW(616.5 1.9 568.4)  cached-endpoint matches at (rel to ref): (none)
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: AIM cam=610.21 0.85 570.09 fwd=0.957 0.000 -0.289 | eye=610.44 2.27 570.17 | hit=801.66 0.88 512.24 d=200.0
+HV: PROBE aimSource    pos=  611.47     2.17   569.71 fwd= 0.957  0.000 -0.289
+HV: PROBE aimTarget    pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE cameraTarget pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: PROBE camera       pos=  610.21     0.85   570.09 fwd= 0.957  0.000 -0.289
+HV: AIM cam=610.21 0.85 570.09 fwd=0.957 0.000 -0.289 | eye=610.55 2.22 570.13 | hit=614.22 0.85 568.88 d=4.2
+HV: heartbeat - 103 casts in last second (hook alive)
+HV: beamRef=0000007e6cefce80  endW(616.5 1.9 568.4)  cached-endpoint matches at (rel to ref): (none)
+QueueEvent(0xA92009BB, -> 0x00208583 pos 610.2 0.9 570.1) [component-style: count=1 flag=1 posNULL] -> 000001a7e3605290
+QueueEvent(0xA92009BB, -> 0x00208583 pos 610.2 0.9 570.1) [component-style: count=1 flag=1 posNULL] -> 000001a7e36053d0
+QueueEvent(0xA92009BB, -> 0x00208583 pos 610.2 0.9 570.1) [component-style: count=1 flag=1 posNULL] -> 000001a7e3605510
+HV: restored LF end to 0.0358 0.1201 25.1463
+HV: restored RT end to -0.0320 0.1211 25.1463
+laser OFF (LocatorTransform hook disabled)
