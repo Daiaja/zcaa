@@ -1,0 +1,118 @@
+=== BUILD 7.4  Sep 16 2026 16:24:25  dll=00007ffe28ac0000 ===
+Homelander Heat Vision BUILD=v124-aimprobe — key=0x4A mode=0 hold=1 heroHandleOverride=0x00000000
+scan: QueueEvent=00007ff620781dd0  leaSite=00007ff621331981  ActorFromHandle=00007ff6205eb5e0
+g_EventSystem=00007ff629a9ad40  (lea-site call -> 00007ff620781dd0, QueueEvent pattern -> 00007ff620781dd0, MATCH)
+QueueEvent hook SKIPPED (HookEvents=0) - hero handle learning disabled
+HV: ExecThunk         00007ff620944ac0 rva 2C04AC0 want 2C04AC0 OK
+HV: QueryInit         00007ff620912260 rva 2BD2260 want 2BD2260 OK
+HV: ApplyCollRequest  00007ff62091b050 rva 2BDB050 want 2BDB050 OK
+HV: SetIgnoreActor    00007ff62091af40 rva 2BDAF40 want 2BDAF40 OK
+HV: GetActorCollReq   00007ff6209284f0 rva 2BE84F0 want 2BE84F0 OK
+HV: ResultCount       00007ff620935c30 rva 2BF5C30 want 2BF5C30 OK
+HV: ResultAt          00007ff620935aa0 rva 2BF5AA0 want 2BF5AA0 OK
+HV: ResultPos+0x18    00007ff620935dc0 rva 2BF5DC0 want 2BF5DC0 OK
+HV: LocatorTransform  00007ff62085a2c0 rva 2B1A2C0 want 2B1A2C0 OK
+HV: LocatorByHash     00007ff620840c00 rva 2B00C00 want 2B00C00 OK
+HV: LocToWorld        00007ff620e5ba50 rva 311BA50 want 311BA50 OK
+HV: worldPtr=00007ff627e9f5d0 -> 00007ff629df2110
+HV: resolver capture hooked @00007ff62083e700
+HV: PRIMARY host LocatorTransform hooked (idle-disabled)
+HV: heroRegistry=00007ff62a1756c0
+HV: ARMED - 1 timing hosts
+ready
+HV: hero from registry slot 0 -> handle 0x0020E4AA
+HV: cast attempt #1
+HV: PRED(0x140E3B3B0) = 0
+HV: PROBE actor=0000017af5e1fa80 vtable=0000017b43e00b80  slot0x48=3f7d9d53bc5c1213  slot0x88=0000200390400111
+HV: heartbeat - 1 casts in last second (hook alive)
+HV: cast attempt #2
+HV: PROBE aimSource    pos=  478.99     2.43  1380.73 fwd=-0.981  0.000  0.191
+HV: PROBE aimTarget    pos=  480.29     1.11  1380.47 fwd=-0.981  0.000  0.191
+HV: PROBE cameraTarget pos=  480.29     1.11  1380.47 fwd=-0.981  0.000  0.191
+HV: PROBE camera       pos=  480.28     1.11  1380.47 fwd=-0.981  0.000  0.192
+HV: AIM cam=480.28 1.11 1380.47 fwd=-0.981 0.000 0.192 | eye=480.12 2.78 1380.40 | hit=342.16 2.80 1407.42 d=140.7
+HV: REC LF START
+HV:   +0x00     0.0182     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201     0.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=0.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 0.1463)
+HV: REC LF END
+HV:   +0x00 534978652488597504.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201    25.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=25.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 25.1463)
+HV: saved LF start 0.0358 0.1201 0.1463  end 0.0358 0.1201 25.1463
+HV:   LF hit[0/1] d=28.70  at 452.0 1.0 1386.0
+HV: LF dist=28.70 refLen=25.04 t=1.146 -> Z 28.854 (was 25.146)
+HV: REC RT START
+HV:   +0x00     0.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211     0.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=0.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 0.1463)
+HV: REC RT END
+HV:   +0x00 778086394493125148833141827322249216.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211    25.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=25.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 25.1463)
+HV: saved RT start -0.0320 0.1211 0.1463  end -0.0320 0.1211 25.1463
+HV:   RT hit[0/1] d=28.74  at 452.0 1.0 1386.0
+HV: RT dist=28.74 refLen=25.05 t=1.147 -> Z 28.889 (was 25.146)
+HV: cast attempt #3
+HV: REC LF START
+HV:   +0x00     0.0182     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201     0.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=0.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 0.1463)
+HV: REC LF END
+HV:   +0x00 534978652488597504.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0498     1.6746    28.8540
+HV:   -> if row-major: pos=(1.0000 -0.0498 1.6746) w=28.8540
+HV:   -> our code reads +0x34 = (-0.0498 1.6746 28.8540)
+HV:   LF hit[0/1] d=28.71  at 452.0 1.0 1386.0
+HV: LF dist=28.71 refLen=25.04 t=1.146 -> Z 28.854 (was 25.146)
+HV: REC RT START
+HV:   +0x00     0.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211     0.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=0.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 0.1463)
+HV: REC RT END
+HV:   +0x00 778086394493125148833141827322249216.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.1173     1.6718    28.8889
+HV:   -> if row-major: pos=(1.0000 -0.1173 1.6718) w=28.8889
+HV:   -> our code reads +0x34 = (-0.1173 1.6718 28.8889)
+HV:   RT hit[0/1] d=28.75  at 452.0 1.0 1386.0
+HV: RT dist=28.75 refLen=25.05 t=1.148 -> Z 28.890 (was 25.146)
+HV:   LF hit[0/1] d=28.71  at 452.0 1.0 1386.0
+HV: LF dist=28.71 refLen=25.04 t=1.147 -> Z 28.855 (was 25.146)
+HV:   RT hit[0/1] d=28.76  at 452.0 1.0 1386.0
+HV: RT dist=28.76 refLen=25.05 t=1.148 -> Z 28.891 (was 25.146)
+HV:   LF hit[0/1] d=28.72  at 452.0 1.0 1386.0
+HV: LF dist=28.72 refLen=25.04 t=1.147 -> Z 28.854 (was 25.146)
+HV:   RT hit[0/1] d=28.76  at 452.0 1.0 1386.0
+HV: RT dist=28.76 refLen=25.05 t=1.148 -> Z 28.892 (was 25.146)
+HV:   LF hit[0/1] d=28.73  at 452.0 1.0 1386.0
+HV: LF dist=28.73 refLen=25.04 t=1.147 -> Z 28.854 (was 25.146)
+HV:   RT hit[0/1] d=28.77  at 452.0 1.0 1386.0
+HV: RT dist=28.77 refLen=25.05 t=1.149 -> Z 28.892 (was 25.146)
+HV:   LF hit[0/1] d=28.73  at 452.0 1.0 1386.0
+HV: LF dist=28.73 refLen=25.04 t=1.147 -> Z 28.853 (was 25.146)
+HV:   RT hit[0/1] d=28.78  at 452.0 1.0 1386.0
+HV: RT dist=28.78 refLen=25.05 t=1.149 -> Z 28.891 (was 25.146)
+HV: PRED(0x140E3B3B0) = 0
+HV: PROBE actor=0000017af5e1fa80 vtable=0000017b43e00b80  slot0x48=3f7d49fdbd0275f6  slot0x88=0000000390400111
