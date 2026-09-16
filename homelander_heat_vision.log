@@ -1,0 +1,29 @@
+=== BUILD 7.4  Sep 16 2026 17:37:08  dll=00007ffdfd6f0000 ===
+Homelander Heat Vision BUILD=v128-viewpitch — key=0x4A mode=0 hold=1 heroHandleOverride=0x00000000
+scan: QueueEvent=00007ff620781dd0  leaSite=00007ff621331981  ActorFromHandle=00007ff6205eb5e0
+g_EventSystem=00007ff629a9ad40  (lea-site call -> 00007ff620781dd0, QueueEvent pattern -> 00007ff620781dd0, MATCH)
+QueueEvent hook SKIPPED (HookEvents=0) - hero handle learning disabled
+HV: ExecThunk         00007ff620944ac0 rva 2C04AC0 want 2C04AC0 OK
+HV: QueryInit         00007ff620912260 rva 2BD2260 want 2BD2260 OK
+HV: ApplyCollRequest  00007ff62091b050 rva 2BDB050 want 2BDB050 OK
+HV: SetIgnoreActor    00007ff62091af40 rva 2BDAF40 want 2BDAF40 OK
+HV: GetActorCollReq   00007ff6209284f0 rva 2BE84F0 want 2BE84F0 OK
+HV: ResultCount       00007ff620935c30 rva 2BF5C30 want 2BF5C30 OK
+HV: ResultAt          00007ff620935aa0 rva 2BF5AA0 want 2BF5AA0 OK
+HV: ResultPos+0x18    00007ff620935dc0 rva 2BF5DC0 want 2BF5DC0 OK
+HV: LocatorTransform  00007ff62085a2c0 rva 2B1A2C0 want 2B1A2C0 OK
+HV: LocatorByHash     00007ff620840c00 rva 2B00C00 want 2B00C00 OK
+HV: LocToWorld        00007ff620e5ba50 rva 311BA50 want 311BA50 OK
+HV: worldPtr=00007ff627e9f5d0 -> 00007ff629df2110
+HV: resolver capture hooked @00007ff62083e700
+HV: PRIMARY host LocatorTransform hooked (idle-disabled)
+HV: heroRegistry=00007ff62a1756c0
+HV: ARMED - 1 timing hosts
+ready
+HV: VIEWMAT candidate @0000001add0fd550 pos=-2.01 1.43 72.79 fwd=0.406 -0.819 -0.406
+HV: VIEWMAT candidate @0000001add0fd5d0 pos=-50.05 -42.51 31.51 fwd=0.707 0.579 -0.406
+HV: VIEWMAT candidate @0000001add0fd840 pos=-0.58 -0.57 0.58 fwd=0.579 0.574 -0.579
+HV: VIEWMAT candidate @0000001add0fd850 pos=-0.41 0.82 0.41 fwd=-0.579 -0.574 0.579
+HV: VIEWMAT candidate @0000001add0fd860 pos=-73.53 -73.53 1.00 fwd=-0.406 0.819 0.406
+HV: VIEWMAT candidate @0000001add10a1d0 pos=1.00 -0.15 0.00 fwd=0.000 0.999 -0.098
+HV: VIEWMAT locked @1ADD0FD550
