@@ -1,0 +1,1692 @@
+=== BUILD 7.4  Sep 16 2026 20:18:08  dll=00007ffdd0de0000 ===
+Homelander Heat Vision BUILD=v131-camhook — key=0x4A mode=0 hold=1 heroHandleOverride=0x00000000
+scan: QueueEvent=00007ff620781dd0  leaSite=00007ff621331981  ActorFromHandle=00007ff6205eb5e0
+g_EventSystem=00007ff629a9ad40  (lea-site call -> 00007ff620781dd0, QueueEvent pattern -> 00007ff620781dd0, MATCH)
+QueueEvent hook SKIPPED (HookEvents=0) - hero handle learning disabled
+HV: ExecThunk         00007ff620944ac0 rva 2C04AC0 want 2C04AC0 OK
+HV: QueryInit         00007ff620912260 rva 2BD2260 want 2BD2260 OK
+HV: ApplyCollRequest  00007ff62091b050 rva 2BDB050 want 2BDB050 OK
+HV: SetIgnoreActor    00007ff62091af40 rva 2BDAF40 want 2BDAF40 OK
+HV: GetActorCollReq   00007ff6209284f0 rva 2BE84F0 want 2BE84F0 OK
+HV: ResultCount       00007ff620935c30 rva 2BF5C30 want 2BF5C30 OK
+HV: ResultAt          00007ff620935aa0 rva 2BF5AA0 want 2BF5AA0 OK
+HV: ResultPos+0x18    00007ff620935dc0 rva 2BF5DC0 want 2BF5DC0 OK
+HV: LocatorTransform  00007ff62085a2c0 rva 2B1A2C0 want 2B1A2C0 OK
+HV: LocatorByHash     00007ff620840c00 rva 2B00C00 want 2B00C00 OK
+HV: LocToWorld        00007ff620e5ba50 rva 311BA50 want 311BA50 OK
+HV: worldPtr=00007ff627e9f5d0 -> 00007ff629df2110
+HV: resolver capture hooked @00007ff62083e700
+HV: camera-update hook installed @7FF61ED9A000
+HV: PRIMARY host LocatorTransform hooked (idle-disabled)
+HV: heroRegistry=00007ff62a1756c0
+HV: ARMED - 1 timing hosts
+ready
+HV: hero from registry slot 0 -> handle 0x0020E331
+HV: cast attempt #1
+HV: RETICLE = 0
+HV: CAM+0x1C0 pos=507.49 0.85 1373.52 fwd=0.109 0.000 0.994
+HV: using VIEW fwd=0.109 0.000 0.994
+HV: PROBE aimSource    pos=  507.64     2.17  1374.83 fwd= 0.109  0.000  0.994
+HV: PROBE aimTarget    pos=  507.73     0.85  1375.70 fwd= 0.109  0.000  0.994
+HV: PROBE cameraTarget pos=  507.49     0.85  1373.52 fwd= 0.109  0.000  0.994
+HV: PROBE camera       pos=  507.49     0.85  1373.52 fwd= 0.109 -0.000  0.994
+HV: AIM cam=507.49 0.85 1373.52 fwd=0.109 0.000 0.994 | eye=507.34 2.12 1373.85 | hit=516.91 2.12 1461.00 d=88.0
+HV: REC LF START
+HV:   +0x00     0.0182     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201     0.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=0.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 0.1463)
+HV: REC LF END
+HV:   +0x00 534978652488597504.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201    25.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=25.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 25.1463)
+HV: saved LF start 0.0358 0.1201 0.1463  end 0.0358 0.1201 25.1463
+HV:   LF hit[0/1] d=23.94  at 510.2 1.0 1397.6
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.253 (was 25.146)
+HV: REC RT START
+HV:   +0x00     0.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211     0.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=0.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 0.1463)
+HV: REC RT END
+HV:   +0x00 778086394493125148833141827322249216.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211    25.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=25.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 25.1463)
+HV: saved RT start -0.0320 0.1211 0.1463  end -0.0320 0.1211 25.1463
+HV:   RT hit[0/1] d=23.95  at 510.1 1.0 1397.6
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.258 (was 25.146)
+QueueEvent(0x14FD55F6, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000026c8fc05290
+QueueEvent(0x14FD55F6, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000026c8fc053d0
+QueueEvent(0x14FD55F6, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000026c8fc05510
+laser ON  (pre-cast then spawn)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: beamRef=000000ec27f1cb20  endW(510.1 1.0 1397.6)  cached-endpoint matches at (rel to ref): (none)
+HV: heartbeat - 1 casts in last second (hook alive)
+HV: cast attempt #2
+HV: REC LF START
+HV:   +0x00     0.0182     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201     0.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=0.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 0.1463)
+HV: REC LF END
+HV:   +0x00 534978652488597504.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.1572     1.2766    24.2528
+HV:   -> if row-major: pos=(1.0000 -0.1572 1.2766) w=24.2528
+HV:   -> our code reads +0x34 = (-0.1572 1.2766 24.2528)
+HV:   LF hit[0/1] d=23.94  at 510.2 1.0 1397.6
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.253 (was 25.146)
+HV: REC RT START
+HV:   +0x00     0.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211     0.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=0.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 0.1463)
+HV: REC RT END
+HV:   +0x00 778086394493125148833141827322249216.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.2243     1.2719    24.2577
+HV:   -> if row-major: pos=(1.0000 -0.2243 1.2719) w=24.2577
+HV:   -> our code reads +0x34 = (-0.2243 1.2719 24.2577)
+HV:   RT hit[0/1] d=23.95  at 510.1 1.0 1397.6
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.258 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: cast attempt #3
+HV:   LF hit[0/1] d=23.94  at 510.2 1.0 1397.6
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.253 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 510.1 1.0 1397.6
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.258 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.5) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 510.2 1.0 1397.6
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.252 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 510.2 1.0 1397.6
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.257 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 510.3 1.0 1397.6
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.252 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 510.2 1.0 1397.6
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.257 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 510.3 1.0 1397.6
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.252 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 510.2 1.0 1397.7
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.257 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 510.3 1.0 1397.7
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.253 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.2 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.963 -> Z 24.258 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 510.3 1.0 1397.7
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.253 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   RT hit[0/1] d=23.96  at 510.3 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.963 -> Z 24.259 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.4 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.254 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.3 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.963 -> Z 24.259 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.4 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.254 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.3 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.259 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.6) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.4 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.255 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.3 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.260 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.4 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.255 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.4 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.261 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.5 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.256 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.4 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.261 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.5 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.256 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.4 1.0 1397.7
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.261 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.5 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.257 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.5 1.0 1397.8
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.262 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.6 1.0 1397.7
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.257 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.5 1.0 1397.8
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.262 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.6 1.0 1397.8
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.257 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.5 1.0 1397.8
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.263 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.6 1.0 1397.8
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.258 (was 25.146)
+HV:   RT hit[0/1] d=23.97  at 510.5 1.0 1397.8
+HV: RT dist=23.97 refLen=24.87 t=0.964 -> Z 24.264 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.7) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.96  at 510.6 1.0 1397.8
+HV: LF dist=23.96 refLen=24.86 t=0.964 -> Z 24.259 (was 25.146)
+HV:   RT hit[0/1] d=23.97  at 510.6 1.0 1397.8
+HV: RT dist=23.97 refLen=24.87 t=0.964 -> Z 24.264 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.96  at 510.7 1.0 1397.8
+HV: LF dist=23.96 refLen=24.86 t=0.964 -> Z 24.260 (was 25.146)
+HV:   RT hit[0/1] d=23.97  at 510.6 1.0 1397.8
+HV: RT dist=23.97 refLen=24.87 t=0.964 -> Z 24.266 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.96  at 510.7 1.0 1397.8
+HV: LF dist=23.96 refLen=24.86 t=0.964 -> Z 24.262 (was 25.146)
+HV:   RT hit[0/1] d=23.97  at 510.6 1.0 1397.8
+HV: RT dist=23.97 refLen=24.87 t=0.964 -> Z 24.268 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.9 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.96  at 510.7 1.0 1397.8
+HV: LF dist=23.96 refLen=24.86 t=0.964 -> Z 24.265 (was 25.146)
+HV:   RT hit[0/1] d=23.97  at 510.6 1.0 1397.8
+HV: RT dist=23.97 refLen=24.87 t=0.964 -> Z 24.271 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.7 1.0 1397.8
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.262 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.7 1.0 1397.8
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.268 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.8 1.0 1397.8
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.263 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.7 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.269 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.8 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.264 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.7 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.270 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.8) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.8 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.964 -> Z 24.265 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.8 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.272 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.8 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.266 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.8 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.272 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.9 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.267 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.8 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.273 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.5 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.9 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.268 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.8 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.964 -> Z 24.274 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.9 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.269 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.9 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.963 -> Z 24.275 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 510.9 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.269 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.9 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.963 -> Z 24.276 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.95  at 511.0 1.0 1397.9
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.270 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 510.9 1.0 1397.9
+HV: RT dist=23.96 refLen=24.87 t=0.963 -> Z 24.277 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1373.9) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 511.0 1.0 1397.9
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.272 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 510.9 1.0 1398.0
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.278 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 511.0 1.0 1398.0
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.273 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 510.9 1.0 1398.0
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.280 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 511.0 1.0 1398.0
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.275 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 511.0 1.0 1398.0
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.283 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 511.1 1.0 1398.0
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.273 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 511.0 1.0 1398.0
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.280 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.93  at 511.1 1.0 1398.0
+HV: LF dist=23.93 refLen=24.86 t=0.963 -> Z 24.273 (was 25.146)
+HV:   RT hit[0/1] d=23.94  at 511.0 1.0 1398.0
+HV: RT dist=23.94 refLen=24.87 t=0.963 -> Z 24.280 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.93  at 511.1 1.0 1398.0
+HV: LF dist=23.93 refLen=24.86 t=0.963 -> Z 24.274 (was 25.146)
+HV:   RT hit[0/1] d=23.94  at 511.0 1.0 1398.0
+HV: RT dist=23.94 refLen=24.87 t=0.963 -> Z 24.281 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.93  at 511.1 1.0 1398.0
+HV: LF dist=23.93 refLen=24.86 t=0.963 -> Z 24.274 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000HV:   RT hit[0/1] d=23.94  at 511.1 1.0 1398.0
+HV: RT dist=23.94 refLen=24.87 t=0.963 -> Z 24.282 (was 25.146)
+
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.93  at 511.1 1.0 1398.0
+HV: LF dist=23.93 refLen=24.86 t=0.963 -> Z 24.275 (was 25.146)
+HV:   RT hit[0/1] d=23.94  at 511.1 1.0 1398.0
+HV: RT dist=23.94 refLen=24.87 t=0.963 -> Z 24.283 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: RETICLE = 0
+HV:   LF hit[0/1] d=23.93  at 511.2 1.0 1398.0
+HV: LF dist=23.93 refLen=24.86 t=0.963 -> Z 24.286 (was 25.146)
+HV:   RT hit[0/1] d=23.94  at 511.1 1.0 1398.0
+HV: RT dist=23.94 refLen=24.87 t=0.963 -> Z 24.293 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.94  at 511.2 1.0 1398.0
+HV: LF dist=23.94 refLen=24.86 t=0.963 -> Z 24.292 (was 25.146)
+HV:   RT hit[0/1] d=23.95  at 511.2 1.0 1398.0
+HV: RT dist=23.95 refLen=24.87 t=0.963 -> Z 24.300 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: PROBE aimSource    pos=  507.77     2.17  1375.34 fwd= 0.151  0.000  0.989
+HV: PROBE aimTarget    pos=  507.86     0.85  1375.93 fwd= 0.151  0.000  0.989
+HV: PROBE cameraTarget pos=  507.57     0.85  1374.04 fwd= 0.151  0.000  0.989
+HV: PROBE camera       pos=  507.58     0.85  1374.04 fwd= 0.151  0.000  0.989
+HV: AIM cam=507.58 0.85 1374.04 fwd=0.151 0.000 0.989 | eye=507.49 2.12 1374.41 | hit=516.49 2.12 1433.40 d=60.0
+HV:   LF hit[0/1] d=23.95  at 511.3 1.0 1398.0
+HV: LF dist=23.95 refLen=24.86 t=0.963 -> Z 24.302 (was 25.146)
+HV:   RT hit[0/1] d=23.96  at 511.2 1.0 1398.0
+HV: RT dist=23.96 refLen=24.87 t=0.963 -> Z 24.309 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.96  at 511.3 1.0 1398.0
+HV: LF dist=23.96 refLen=24.86 t=0.964 -> Z 24.312 (was 25.146)
+HV:   RT hit[0/1] d=23.97  at 511.2 1.0 1398.0
+HV: RT dist=23.97 refLen=24.87 t=0.964 -> Z 24.319 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.97  at 511.4 1.0 1398.0
+HV: LF dist=23.97 refLen=24.86 t=0.964 -> Z 24.321 (was 25.146)
+HV:   RT hit[0/1] d=23.98  at 511.3 1.0 1398.1
+HV: RT dist=23.98 refLen=24.87 t=0.964 -> Z 24.329 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.98  at 511.4 1.0 1398.0
+HV: LF dist=23.98 refLen=24.86 t=0.965 -> Z 24.330 (was 25.146)
+HV:   RT hit[0/1] d=23.98  at 511.3 1.0 1398.1
+HV: RT dist=23.98 refLen=24.87 t=0.965 -> Z 24.338 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.98  at 511.4 1.0 1398.0
+HV: LF dist=23.98 refLen=24.86 t=0.965 -> Z 24.339 (was 25.146)
+HV:   RT hit[0/1] d=23.99  at 511.4 1.0 1398.1
+HV: RT dist=23.99 refLen=24.87 t=0.965 -> Z 24.346 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=23.99  at 511.5 1.0 1398.0
+HV: LF dist=23.99 refLen=24.86 t=0.965 -> Z 24.348 (was 25.146)
+HV:   RT hit[0/1] d=24.00  at 511.4 1.0 1398.1
+HV: RT dist=24.00 refLen=24.87 t=0.965 -> Z 24.355 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.00  at 511.5 1.0 1398.0
+HV: LF dist=24.00 refLen=24.86 t=0.966 -> Z 24.356 (was 25.146)
+HV:   RT hit[0/1] d=24.01  at 511.5 1.0 1398.1
+HV: RT dist=24.01 refLen=24.87 t=0.966 -> Z 24.364 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.01  at 511.6 1.0 1398.0
+HV: LF dist=24.01 refLen=24.86 t=0.966 -> Z 24.364 (was 25.146)
+HV:   RT hit[0/1] d=24.02  at 511.5 1.0 1398.1
+HV: RT dist=24.02 refLen=24.87 t=0.966 -> Z 24.372 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.02  at 511.6 1.0 1398.0
+HV: LF dist=24.02 refLen=24.86 t=0.966 -> Z 24.372 (was 25.146)
+HV:   RT hit[0/1] d=24.03  at 511.5 1.0 1398.1
+HV: RT dist=24.03 refLen=24.87 t=0.966 -> Z 24.380 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.03  at 511.6 1.0 1398.0
+HV: LF dist=24.03 refLen=24.86 t=0.967 -> Z 24.380 (was 25.146)
+HV:   RT hit[0/1] d=24.04  at 511.6 1.0 1398.1
+HV: RT dist=24.04 refLen=24.87 t=0.967 -> Z 24.388 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.04  at 511.7 1.0 1398.0
+HV: LF dist=24.04 refLen=24.86 t=0.967 -> Z 24.388 (was 25.146)
+HV:   RT hit[0/1] d=24.05  at 511.6 1.0 1398.1
+HV: RT dist=24.05 refLen=24.87 t=0.967 -> Z 24.395 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.05  at 511.7 1.0 1398.0
+HV: LF dist=24.05 refLen=24.86 t=0.967 -> Z 24.394 (was 25.146)
+HV:   RT hit[0/1] d=24.06  at 511.6 1.0 1398.1
+HV: RT dist=24.06 refLen=24.87 t=0.968 -> Z 24.402 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.06  at 511.7 1.0 1398.0
+HV: LF dist=24.06 refLen=24.86 t=0.968 -> Z 24.401 (was 25.146)
+HV:   RT hit[0/1] d=24.07  at 511.7 1.0 1398.1
+HV: RT dist=24.07 refLen=24.87 t=0.968 -> Z 24.408 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.07  at 511.8 1.0 1398.0
+HV: LF dist=24.07 refLen=24.86 t=0.968 -> Z 24.407 (was 25.146)
+HV:   RT hit[0/1] d=24.08  at 511.7 1.0 1398.1
+HV: RT dist=24.08 refLen=24.87 t=0.968 -> Z 24.415 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.08  at 511.8 1.0 1398.0
+HV: LF dist=24.08 refLen=24.86 t=0.969 -> Z 24.413 (was 25.146)
+HV:   RT hit[0/1] d=24.09  at 511.7 1.0 1398.1
+HV: RT dist=24.09 refLen=24.87 t=0.969 -> Z 24.421 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.08  at 511.8 1.0 1398.1
+HV: LF dist=24.08 refLen=24.86 t=0.969 -> Z 24.418 (was 25.146)
+HV:   RT hit[0/1] d=24.10  at 511.8 1.0 1398.1
+HV: RT dist=24.10 refLen=24.87 t=0.969 -> Z 24.426 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.09  at 511.9 1.0 1398.1
+HV: LF dist=24.09 refLen=24.86 t=0.969 -> Z 24.423 (was 25.146)
+HV:   RT hit[0/1] d=24.11  at 511.8 1.0 1398.1
+HV: RT dist=24.11 refLen=24.87 t=0.969 -> Z 24.431 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.10  at 511.9 1.0 1398.1
+HV: LF dist=24.10 refLen=24.86 t=0.969 -> Z 24.427 (was 25.146)
+HV:   RT hit[0/1] d=24.11  at 511.8 1.0 1398.1
+HV: RT dist=24.11 refLen=24.87 t=0.970 -> Z 24.435 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.10  at 511.9 1.0 1398.0
+HV: LF dist=24.10 refLen=24.86 t=0.970 -> Z 24.430 (was 25.146)
+HV:   RT hit[0/1] d=24.11  at 511.8 1.0 1398.1
+HV: RT dist=24.11 refLen=24.87 t=0.970 -> Z 24.439 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.11  at 511.9 1.0 1398.0
+HV: LF dist=24.11 refLen=24.86 t=0.970 -> Z 24.434 (was 25.146)
+HV:   RT hit[0/1] d=24.12  at 511.9 1.0 1398.1
+HV: RT dist=24.12 refLen=24.87 t=0.970 -> Z 24.442 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.11  at 512.0 1.0 1398.0
+HV: LF dist=24.11 refLen=24.86 t=0.970 -> Z 24.437 (was 25.146)
+HV:   RT hit[0/1] d=24.12  at 511.9 1.0 1398.1
+HV: RT dist=24.12 refLen=24.87 t=0.970 -> Z 24.446 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.11  at 512.0 1.0 1398.0
+HV: LF dist=24.11 refLen=24.86 t=0.970 -> Z 24.440 (was 25.146)
+HV:   RT hit[0/1] d=24.12  at 511.9 1.0 1398.1
+HV: RT dist=24.12 refLen=24.87 t=0.970 -> Z 24.449 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.12  at 512.0 1.0 1398.0
+HV: LF dist=24.12 refLen=24.86 t=0.970 -> Z 24.444 (was 25.146)
+HV:   RT hit[0/1] d=24.13  at 511.9 1.0 1398.1
+HV: RT dist=24.13 refLen=24.87 t=0.970 -> Z 24.452 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.12  at 512.0 1.0 1398.0
+HV: LF dist=24.12 refLen=24.86 t=0.970 -> Z 24.447 (was 25.146)
+HV:   RT hit[0/1] d=24.13  at 512.0 1.0 1398.1
+HV: RT dist=24.13 refLen=24.87 t=0.970 -> Z 24.455 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.12  at 512.0 1.0 1398.0
+HV: LF dist=24.12 refLen=24.86 t=0.970 -> Z 24.449 (was 25.146)
+HV:   RT hit[0/1] d=24.13  at 512.0 1.0 1398.1
+HV: RT dist=24.13 refLen=24.87 t=0.971 -> Z 24.458 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.12  at 512.1 1.0 1398.0
+HV: LF dist=24.12 refLen=24.86 t=0.971 -> Z 24.452 (was 25.146)
+HV:   RT hit[0/1] d=24.14  at 512.0 1.0 1398.1
+HV: RT dist=24.14 refLen=24.87 t=0.971 -> Z 24.460 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.13  at 512.1 1.0 1398.0
+HV: LF dist=24.13 refLen=24.86 t=0.971 -> Z 24.455 (was 25.146)
+HV:   RT hit[0/1] d=24.14  at 512.0 1.0 1398.1
+HV: RT dist=24.14 refLen=24.87 t=0.971 -> Z 24.463 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.13  at 512.1 1.0 1398.0
+HV: LF dist=24.13 refLen=24.86 t=0.971 -> Z 24.457 (was 25.146)
+HV:   RT hit[0/1] d=24.14  at 512.0 1.0 1398.1
+HV: RT dist=24.14 refLen=24.87 t=0.971 -> Z 24.465 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.13  at 512.1 1.0 1398.0
+HV: LF dist=24.13 refLen=24.86 t=0.971 -> Z 24.459 (was 25.146)
+HV:   RT hit[0/1] d=24.14  at 512.0 1.0 1398.1
+HV: RT dist=24.14 refLen=24.87 t=0.971 -> Z 24.468 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.13  at 512.1 1.0 1398.0
+HV: LF dist=24.13 refLen=24.86 t=0.971 -> Z 24.462 (was 25.146)
+HV:   RT hit[0/1] d=24.15  at 512.0 1.0 1398.1
+HV: RT dist=24.15 refLen=24.87 t=0.971 -> Z 24.470 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.14  at 512.1 1.0 1398.0
+HV: LF dist=24.14 refLen=24.86 t=0.971 -> Z 24.464 (was 25.146)
+HV:   RT hit[0/1] d=24.15  at 512.1 1.0 1398.1
+HV: RT dist=24.15 refLen=24.87 t=0.971 -> Z 24.472 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.14  at 512.1 1.0 1398.0
+HV: LF dist=24.14 refLen=24.86 t=0.971 -> Z 24.466 (was 25.146)
+HV:   RT hit[0/1] d=24.15  at 512.1 1.0 1398.1
+HV: RT dist=24.15 refLen=24.87 t=0.971 -> Z 24.474 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.14  at 512.2 1.0 1398.0
+HV: LF dist=24.14 refLen=24.86 t=0.971 -> Z 24.468 (was 25.146)
+HV:   RT hit[0/1] d=24.15  at 512.1 1.0 1398.1
+HV: RT dist=24.15 refLen=24.87 t=0.971 -> Z 24.476 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.14  at 512.2 1.0 1398.0
+HV: LF dist=24.14 refLen=24.86 t=0.971 -> Z 24.470 (was 25.146)
+HV:   RT hit[0/1] d=24.15  at 512.1 1.0 1398.1
+HV: RT dist=24.15 refLen=24.87 t=0.971 -> Z 24.478 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.14  at 512.2 1.0 1398.0
+HV: LF dist=24.14 refLen=24.86 t=0.971 -> Z 24.472 (was 25.146)
+HV:   RT hit[0/1] d=24.16  at 512.1 1.0 1398.1
+HV: RT dist=24.16 refLen=24.87 t=0.971 -> Z 24.480 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.15  at 512.2 1.0 1398.0
+HV: LF dist=24.15 refLen=24.86 t=0.971 -> Z 24.474 (was 25.146)
+HV:   RT hit[0/1] d=24.16  at 512.1 1.0 1398.1
+HV: RT dist=24.16 refLen=24.87 t=0.972 -> Z 24.482 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.15  at 512.2 1.0 1398.0
+HV: LF dist=24.15 refLen=24.86 t=0.971 -> Z 24.475 (was 25.146)
+HV:   RT hit[0/1] d=24.16  at 512.1 1.0 1398.1
+HV: RT dist=24.16 refLen=24.87 t=0.972 -> Z 24.484 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.15  at 512.2 1.0 1398.0
+HV: LF dist=24.15 refLen=24.86 t=0.971 -> Z 24.477 (was 25.146)
+HV:   RT hit[0/1] d=24.16  at 512.2 1.0 1398.1
+HV: RT dist=24.16 refLen=24.87 t=0.972 -> Z 24.485 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: heartbeat - 79 casts in last second (hook alive)
+HV: RETICLE = 0
+HV:   LF hit[0/1] d=24.15  at 512.2 1.0 1398.0
+HV: LF dist=24.15 refLen=24.86 t=0.972 -> Z 24.479 (was 25.146)
+HV:   RT hit[0/1] d=24.16  at 512.2 1.0 1398.1
+HV: RT dist=24.16 refLen=24.87 t=0.972 -> Z 24.487 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: beamRef=000000ec27f1cb20  endW(512.2 1.0 1398.1)  cached-endpoint matches at (rel to ref): (none)
+HV:   LF hit[0/1] d=24.15  at 512.2 1.0 1398.0
+HV: LF dist=24.15 refLen=24.86 t=0.972 -> Z 24.481 (was 25.146)
+HV:   RT hit[0/1] d=24.16  at 512.2 1.0 1398.1
+HV: RT dist=24.16 refLen=24.87 t=0.972 -> Z 24.489 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: PROBE aimSource    pos=  507.82     2.17  1375.33 fwd= 0.190  0.000  0.982
+HV: PROBE aimTarget    pos=  507.57     0.85  1374.04 fwd= 0.190  0.000  0.982
+HV: PROBE cameraTarget pos=  507.57     0.85  1374.04 fwd= 0.190  0.000  0.982
+HV: PROBE camera       pos=  507.57     0.85  1374.04 fwd= 0.190  0.001  0.982
+HV: AIM cam=507.57 0.85 1374.04 fwd=0.190 0.000 0.982 | eye=507.49 2.21 1374.38 | hit=523.95 2.21 1459.55 d=87.1
+HV:   LF hit[0/1] d=24.15  at 512.2 1.0 1398.0
+HV: LF dist=24.15 refLen=24.86 t=0.972 -> Z 24.482 (was 25.146)
+HV:   RT hit[0/1] d=24.17  at 512.2 1.0 1398.1
+HV: RT dist=24.17 refLen=24.87 t=0.972 -> Z 24.490 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.483 (was 25.146)
+HV:   RT hit[0/1] d=24.17  at 512.2 1.0 1398.1
+HV: RT dist=24.17 refLen=24.87 t=0.972 -> Z 24.492 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.485 (was 25.146)
+HV:   RT hit[0/1] d=24.17  at 512.2 1.0 1398.1
+HV: RT dist=24.17 refLen=24.87 t=0.972 -> Z 24.493 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.486 (was 25.146)
+HV:   RT hit[0/1] d=24.17  at 512.2 1.0 1398.1
+HV: RT dist=24.17 refLen=24.87 t=0.972 -> Z 24.494 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.487 (was 25.146)
+HV:   RT hit[0/1] d=24.17  at 512.2 1.0 1398.1
+HV: RT dist=24.17 refLen=24.87 t=0.972 -> Z 24.496 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.489 (was 25.146)
+HV:   RT hit[0/1] d=24.17  at 512.2 1.0 1398.1
+HV: RT dist=24.17 refLen=24.87 t=0.972 -> Z 24.497 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.490 (was 25.146)
+HV:   RT hit[0/1] d=24.17  at 512.2 1.0 1398.1
+HV: RT dist=24.17 refLen=24.87 t=0.972 -> Z 24.498 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.491 (was 25.146)
+HV:   RT hit[0/1] d=24.18  at 512.2 1.0 1398.1
+HV: RT dist=24.18 refLen=24.87 t=0.972 -> Z 24.500 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.16  at 512.3 1.0 1398.0
+HV: LF dist=24.16 refLen=24.86 t=0.972 -> Z 24.492 (was 25.146)
+HV:   RT hit[0/1] d=24.18  at 512.2 1.0 1398.1
+HV: RT dist=24.18 refLen=24.87 t=0.972 -> Z 24.501 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.17  at 512.3 1.0 1398.0
+HV: LF dist=24.17 refLen=24.86 t=0.972 -> Z 24.493 (was 25.146)
+HV:   RT hit[0/1] d=24.18  at 512.3 1.0 1398.1
+HV: RT dist=24.18 refLen=24.87 t=0.972 -> Z 24.502 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.17  at 512.3 1.0 1398.0
+HV: LF dist=24.17 refLen=24.86 t=0.972 -> Z 24.495 (was 25.146)
+HV:   RT hit[0/1] d=24.18  at 512.3 1.0 1398.1
+HV: RT dist=24.18 refLen=24.87 t=0.972 -> Z 24.503 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.17  at 512.3 1.0 1398.0
+HV: LF dist=24.17 refLen=24.86 t=0.972 -> Z 24.496 (was 25.146)
+HV:   RT hit[0/1] d=24.18  at 512.3 1.0 1398.1
+HV: RT dist=24.18 refLen=24.87 t=0.972 -> Z 24.504 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.17  at 512.3 1.0 1398.0
+HV: LF dist=24.17 refLen=24.86 t=0.972 -> Z 24.497 (was 25.146)
+HV:   RT hit[0/1] d=24.18  at 512.3 1.0 1398.1
+HV: RT dist=24.18 refLen=24.87 t=0.973 -> Z 24.505 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.17  at 512.3 1.0 1398.0
+HV: LF dist=24.17 refLen=24.86 t=0.972 -> Z 24.497 (was 25.146)
+HV:   RT hit[0/1] d=24.18  at 512.3 1.0 1398.1
+HV: RT dist=24.18 refLen=24.87 t=0.973 -> Z 24.506 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.19  at 512.5 1.0 1398.0
+HV: LF dist=24.19 refLen=24.86 t=0.973 -> Z 24.514 (was 25.146)
+HV:   RT hit[0/1] d=24.20  at 512.4 1.0 1398.0
+HV: RT dist=24.20 refLen=24.87 t=0.973 -> Z 24.522 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.19  at 512.5 1.0 1398.0
+HV: LF dist=24.19 refLen=24.86 t=0.973 -> Z 24.514 (was 25.146)
+HV:   RT hit[0/1] d=24.20  at 512.4 1.0 1398.0
+HV: RT dist=24.20 refLen=24.87 t=0.973 -> Z 24.522 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.19  at 512.5 1.0 1398.0
+HV: LF dist=24.19 refLen=24.86 t=0.973 -> Z 24.514 (was 25.146)
+HV:   RT hit[0/1] d=24.20  at 512.4 1.0 1398.0
+HV: RT dist=24.20 refLen=24.87 t=0.973 -> Z 24.523 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV:   LF hit[0/1] d=24.19  at 512.5 1.0 1398.0
+HV: LF dist=24.19 refLen=24.86 t=0.973 -> Z 24.514 (was 25.146)
+HV:   RT hit[0/1] d=24.20  at 512.4 1.0 1398.0
+HV: RT dist=24.20 refLen=24.87 t=0.973 -> Z 24.523 (was 25.146)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: RETICLE = 0
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: PROBE aimSource    pos=  507.84     2.17  1375.33 fwd= 0.198  0.000  0.980
+HV: PROBE aimTarget    pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE cameraTarget pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE camera       pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: AIM cam=507.57 0.85 1374.04 fwd=0.198 0.000 0.980 | eye=507.50 2.22 1374.38 | hit=520.67 2.22 1439.50 d=66.8
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: RETICLE = 0
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: heartbeat - 80 casts in last second (hook alive)
+HV: CAM+0x1C0 pos=507.57 0.85 1374.04 fwd=0.198 0.000 0.980
+HV: using VIEW fwd=0.198 0.000 0.980
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: beamRef=000000ec27f1cb20  endW(512.4 1.0 1398.0)  cached-endpoint matches at (rel to ref): (none)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: PROBE aimSource    pos=  507.84     2.17  1375.33 fwd= 0.198  0.000  0.980
+HV: PROBE aimTarget    pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE cameraTarget pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE camera       pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: AIM cam=507.57 0.85 1374.04 fwd=0.198 0.000 0.980 | eye=507.50 2.19 1374.38 | hit=520.68 2.19 1439.50 d=66.8
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: RETICLE = 0
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: PROBE aimSource    pos=  507.84     2.17  1375.33 fwd= 0.198  0.000  0.980
+HV: PROBE aimTarget    pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE cameraTarget pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE camera       pos=  507.57     0.85  1374.04 fwd= 0.199 -0.000  0.980
+HV: AIM cam=507.57 0.85 1374.04 fwd=0.198 0.000 0.980 | eye=507.48 2.22 1374.38 | hit=520.66 2.22 1439.50 d=66.8
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: RETICLE = 0
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: heartbeat - 82 casts in last second (hook alive)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: beamRef=000000ec27f1cb20  endW(512.4 1.0 1398.0)  cached-endpoint matches at (rel to ref): (none)
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+HV: PROBE aimSource    pos=  507.84     2.17  1375.33 fwd= 0.198  0.000  0.980
+HV: PROBE aimTarget    pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE cameraTarget pos=  507.57     0.85  1374.04 fwd= 0.198  0.000  0.980
+HV: PROBE camera       pos=  507.57     0.85  1374.04 fwd= 0.198  0.001  0.980
+HV: AIM cam=507.57 0.85 1374.04 fwd=0.198 0.000 0.980 | eye=507.48 2.21 1374.39 | hit=520.66 2.21 1439.50 d=66.8
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.8 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xDE0BC23E, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000000000000000
+QueueEvent(0xA92009BB, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000026c8fc05290
+QueueEvent(0xA92009BB, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000026c8fc053d0
+QueueEvent(0xA92009BB, -> 0x0020E331 pos 507.6 0.9 1374.0) [component-style: count=1 flag=1 posNULL] -> 0000026c8fc05510
+HV: restored LF end to 0.0358 0.1201 25.1463
+HV: restored RT end to -0.0320 0.1211 25.1463
+laser OFF (LocatorTransform hook disabled)
