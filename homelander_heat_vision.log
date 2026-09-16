@@ -1,0 +1,2154 @@
+=== BUILD 7.4  Sep 16 2026 15:39:31  dll=00007ffdcec30000 ===
+Homelander Heat Vision BUILD=v121-revert34 — key=0x4A mode=0 hold=1 heroHandleOverride=0x00000000
+scan: QueueEvent=00007ff620781dd0  leaSite=00007ff621331981  ActorFromHandle=00007ff6205eb5e0
+g_EventSystem=00007ff629a9ad40  (lea-site call -> 00007ff620781dd0, QueueEvent pattern -> 00007ff620781dd0, MATCH)
+QueueEvent hook SKIPPED (HookEvents=0) - hero handle learning disabled
+HV: ExecThunk         00007ff620944ac0 rva 2C04AC0 want 2C04AC0 OK
+HV: QueryInit         00007ff620912260 rva 2BD2260 want 2BD2260 OK
+HV: ApplyCollRequest  00007ff62091b050 rva 2BDB050 want 2BDB050 OK
+HV: SetIgnoreActor    00007ff62091af40 rva 2BDAF40 want 2BDAF40 OK
+HV: GetActorCollReq   00007ff6209284f0 rva 2BE84F0 want 2BE84F0 OK
+HV: ResultCount       00007ff620935c30 rva 2BF5C30 want 2BF5C30 OK
+HV: ResultAt          00007ff620935aa0 rva 2BF5AA0 want 2BF5AA0 OK
+HV: ResultPos+0x18    00007ff620935dc0 rva 2BF5DC0 want 2BF5DC0 OK
+HV: LocatorTransform  00007ff62085a2c0 rva 2B1A2C0 want 2B1A2C0 OK
+HV: LocatorByHash     00007ff620840c00 rva 2B00C00 want 2B00C00 OK
+HV: LocToWorld        00007ff620e5ba50 rva 311BA50 want 311BA50 OK
+HV: worldPtr=00007ff627e9f5d0 -> 00007ff629df2110
+HV: resolver capture hooked @00007ff62083e700
+HV: PRIMARY host LocatorTransform hooked (idle-disabled)
+HV: heroRegistry=00007ff62a1756c0
+HV: ARMED - 1 timing hosts
+ready
+HV: hero from registry slot 0 -> handle 0x0020AACA
+HV: cast attempt #1
+HV: heartbeat - 1 casts in last second (hook alive)
+HV: cast attempt #2
+HV: CAMOBJ found @3F8FCFD038 (vtable HeroCameraManager)
+HV: ===== camera object matrix dump (player 387.86 7.44 1012.47) =====
+HV:  +0x168 pos=   387.88     8.10   1012.99 fwd=-0.049 -0.698  0.715  dist=  0.84 behind=  -0.09
+HV:  +0x1A8 pos=   387.86     7.44   1012.47 fwd= 0.008  0.000  1.000  dist=  0.00 behind=   0.00
+HV: ===== 2 matrices =====
+HV: CAMOBJ found @3F8FCFD038 (vtable HeroCameraManager)
+HV: AIMMGR found @3F8FCFD0B8
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV:   +0x040     387.849      8.096   1012.989   POS 
+HV:   +0x050       0.008      0.000      1.000   DIR
+HV:   +0x054       0.000      1.000      0.000   DIR
+HV:   +0x0E0       0.000      0.000      0.996   DIR
+HV:   +0x0E4       0.000      0.996      0.022   DIR
+HV:   +0x0E8       0.996      0.022      0.090   DIR
+HV:   +0x0F8      -0.079      0.716      0.694   DIR
+HV:   +0x0FC       0.716      0.694      0.000   DIR
+HV:   +0x108      -0.049     -0.698      0.715   DIR
+HV:   +0x10C      -0.698      0.715      0.000   DIR
+HV:   +0x118     387.883      8.097   1012.992   POS 
+HV:   +0x128       1.000     -0.000     -0.008   DIR
+HV:   +0x134       0.000      0.000      1.000   DIR
+HV:   +0x138       0.000      1.000     -0.000   DIR
+HV:   +0x13C       1.000     -0.000      0.000   DIR
+HV:   +0x148       0.008      0.000      1.000   DIR
+HV:   +0x14C       0.000      1.000      0.000   DIR
+HV:   +0x164       1.000     -0.000      0.000   DIR
+HV: --- 18 fields ---
+HV: PROBE aimSource    pos=  387.87     8.76  1013.79 fwd= 0.008  0.000  1.000
+HV: PROBE aimTarget    pos=  387.86     7.44  1012.47 fwd= 0.008  0.000  1.000
+HV: PROBE cameraTarget pos=  387.86     7.44  1012.47 fwd= 0.008  0.000  1.000
+HV: PROBE camera       pos=  387.86     7.44  1012.47 fwd= 0.008  0.000  1.000
+HV: AIM cam=387.86 7.44 1012.47 fwd=0.008 0.000 1.000 | eye=387.85 8.10 1012.99 | hit=389.27 8.12 1182.46 d=170.0
+HV: REC LF START
+HV:   +0x00     0.0182     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201     0.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=0.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 0.1463)
+HV: REC LF END
+HV:   +0x00 534978652488597504.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201    25.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=25.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 25.1463)
+HV: ===== locator-scheduler scan (vtable RVA 53A6EE0) =====
+HV:  obj=3F903FF248 cfg=0 mode=1264(?) hash=000004D0 (other) cached=(0.00 0.00 0.00)
+HV: VIEWMAT candidate @0000003f8fcf9ec0 pos=386.85 9.20 1008.53 fwd=0.000 0.000 1.000
+HV: VIEWMAT LOCKED @0000003f8fcf9ec0
+HV: VIEW pos=386.85 9.20 1008.53 fwd=0.000 0.000 1.000
+HV: REC LF START
+HV:   +0x00     0.0182     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201     0.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=0.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 0.1463)
+HV: REC LF END
+HV:   +0x00 534978652488597504.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201    25.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=25.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 25.1463)
+HV: saved LF start 0.0358 0.1201 0.1463  end 0.0358 0.1201 25.1463
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.469 (was 25.146)
+HV: REC RT START
+HV:   +0x00     0.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211     0.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=0.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 0.1463)
+HV: REC RT END
+HV:   +0x00 778086394493125148833141827322249216.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -0.0320     0.1211    25.1463
+HV:   -> if row-major: pos=(1.0000 -0.0320 0.1211) w=25.1463
+HV:   -> our code reads +0x34 = (-0.0320 0.1211 25.1463)
+HV: saved RT start -0.0320 0.1211 0.1463  end -0.0320 0.1211 25.1463
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.554 (was 25.146)
+HV: cast attempt #3
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: REC LF START
+HV:   +0x00     0.0182     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000     0.0358     0.1201     0.1463
+HV:   -> if row-major: pos=(1.0000 0.0358 0.1201) w=0.1463
+HV:   -> our code reads +0x34 = (0.0358 0.1201 0.1463)
+HV: REC LF END
+HV:   +0x00 534978652488597504.0000     0.0000     0.0000     0.0000
+HV:   +0x10     1.0000     0.0000     0.0000     0.0000
+HV:   +0x20     1.0000     0.0000     0.0000     0.0000
+HV:   +0x30     1.0000    -1.7302     1.4626   130.4685
+HV:   -> if row-major: pos=(1.0000 -1.7302 1.4626) w=130.4685
+HV:   -> our code reads +0x34 = (-1.7302 1.4626 130.4685)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.469 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.554 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.468 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.553 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.467 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.552 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.466 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.551 (was 25.146)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.466 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.552 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.467 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.553 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.276 -> Z 130.468 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.554 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.277 -> Z 130.468 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.555 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.277 -> Z 130.469 (was 25.146)
+HV:   RT hit[0/1] d=130.05  at 388.9 5.3 1143.0
+HV: RT dist=130.05 refLen=24.64 t=5.279 -> Z 130.556 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.96  at 389.0 5.3 1142.9
+HV: LF dist=129.96 refLen=24.63 t=5.277 -> Z 130.471 (was 25.146)
+HV:   RT hit[0/1] d=130.06  at 388.9 5.3 1143.0
+HV: RT dist=130.06 refLen=24.64 t=5.279 -> Z 130.557 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.97  at 389.0 5.3 1142.9
+HV: LF dist=129.97 refLen=24.63 t=5.277 -> Z 130.472 (was 25.146)
+HV:   RT hit[0/1] d=130.06  at 388.9 5.3 1143.0
+HV: RT dist=130.06 refLen=24.64 t=5.279 -> Z 130.559 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.97  at 389.0 5.3 1142.9
+HV: LF dist=129.97 refLen=24.63 t=5.277 -> Z 130.474 (was 25.146)
+HV:   RT hit[0/1] d=130.06  at 388.9 5.3 1143.0
+HV: RT dist=130.06 refLen=24.64 t=5.279 -> Z 130.561 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.97  at 389.0 5.3 1142.9
+HV: LF dist=129.97 refLen=24.63 t=5.277 -> Z 130.475 (was 25.146)
+HV:   RT hit[0/1] d=130.06  at 388.9 5.3 1143.0
+HV: RT dist=130.06 refLen=24.64 t=5.279 -> Z 130.563 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.97  at 389.0 5.3 1142.9
+HV: LF dist=129.97 refLen=24.63 t=5.277 -> Z 130.477 (was 25.146)
+HV:   RT hit[0/1] d=130.07  at 388.9 5.3 1143.0
+HV: RT dist=130.07 refLen=24.64 t=5.279 -> Z 130.565 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.97  at 389.0 5.3 1142.9
+HV: LF dist=129.97 refLen=24.63 t=5.277 -> Z 130.479 (was 25.146)
+HV:   RT hit[0/1] d=130.07  at 388.9 5.3 1143.0
+HV: RT dist=130.07 refLen=24.64 t=5.280 -> Z 130.567 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.97  at 389.0 5.3 1142.9
+HV: LF dist=129.97 refLen=24.63 t=5.277 -> Z 130.480 (was 25.146)
+HV:   RT hit[0/1] d=130.07  at 388.9 5.3 1143.0
+HV: RT dist=130.07 refLen=24.64 t=5.280 -> Z 130.569 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.98  at 389.0 5.3 1142.9
+HV: LF dist=129.98 refLen=24.63 t=5.277 -> Z 130.482 (was 25.146)
+HV:   RT hit[0/1] d=130.07  at 388.9 5.3 1143.0
+HV: RT dist=130.07 refLen=24.64 t=5.280 -> Z 130.570 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.98  at 389.0 5.3 1142.9
+HV: LF dist=129.98 refLen=24.63 t=5.277 -> Z 130.484 (was 25.146)
+HV:   RT hit[0/1] d=130.07  at 388.9 5.3 1143.0
+HV: RT dist=130.07 refLen=24.64 t=5.280 -> Z 130.572 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.98  at 389.0 5.3 1142.9
+HV: LF dist=129.98 refLen=24.63 t=5.277 -> Z 130.485 (was 25.146)
+HV:   RT hit[0/1] d=130.07  at 388.9 5.3 1143.0
+HV: RT dist=130.07 refLen=24.64 t=5.280 -> Z 130.574 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.98  at 389.0 5.3 1142.9
+HV: LF dist=129.98 refLen=24.63 t=5.277 -> Z 130.487 (was 25.146)
+HV:   RT hit[0/1] d=130.08  at 388.9 5.3 1143.0
+HV: RT dist=130.08 refLen=24.64 t=5.280 -> Z 130.575 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.98  at 389.0 5.3 1142.9
+HV: LF dist=129.98 refLen=24.63 t=5.277 -> Z 130.489 (was 25.146)
+HV:   RT hit[0/1] d=130.08  at 388.9 5.3 1143.0
+HV: RT dist=130.08 refLen=24.64 t=5.280 -> Z 130.577 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.99  at 389.0 5.3 1142.9
+HV: LF dist=129.99 refLen=24.63 t=5.277 -> Z 130.490 (was 25.146)
+HV:   RT hit[0/1] d=130.08  at 388.9 5.3 1143.0
+HV: RT dist=130.08 refLen=24.64 t=5.280 -> Z 130.578 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.99  at 389.0 5.3 1142.9
+HV: LF dist=129.99 refLen=24.63 t=5.278 -> Z 130.492 (was 25.146)
+HV:   RT hit[0/1] d=130.08  at 388.9 5.3 1143.0
+HV: RT dist=130.08 refLen=24.64 t=5.280 -> Z 130.580 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.99  at 389.0 5.3 1142.9
+HV: LF dist=129.99 refLen=24.63 t=5.278 -> Z 130.493 (was 25.146)
+HV:   RT hit[0/1] d=130.08  at 388.9 5.3 1143.0
+HV: RT dist=130.08 refLen=24.64 t=5.280 -> Z 130.581 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.99  at 389.0 5.3 1142.9
+HV: LF dist=129.99 refLen=24.63 t=5.278 -> Z 130.495 (was 25.146)
+HV:   RT hit[0/1] d=130.08  at 388.9 5.3 1143.0
+HV: RT dist=130.08 refLen=24.64 t=5.280 -> Z 130.583 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=129.99  at 389.0 5.3 1142.9
+HV: LF dist=129.99 refLen=24.63 t=5.278 -> Z 130.497 (was 25.146)
+HV:   RT hit[0/1] d=130.09  at 388.9 5.3 1143.0
+HV: RT dist=130.09 refLen=24.64 t=5.280 -> Z 130.585 (was 25.146)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1142.9
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.499 (was 25.146)
+HV:   RT hit[0/1] d=130.09  at 388.9 5.3 1143.0
+HV: RT dist=130.09 refLen=24.64 t=5.280 -> Z 130.587 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1142.9
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.501 (was 25.146)
+HV:   RT hit[0/1] d=130.09  at 388.9 5.3 1143.0
+HV: RT dist=130.09 refLen=24.64 t=5.280 -> Z 130.589 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1143.0
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.502 (was 25.146)
+HV:   RT hit[0/1] d=130.09  at 388.9 5.3 1143.0
+HV: RT dist=130.09 refLen=24.64 t=5.281 -> Z 130.590 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1143.0
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.503 (was 25.146)
+HV:   RT hit[0/1] d=130.09  at 388.9 5.3 1143.0
+HV: RT dist=130.09 refLen=24.64 t=5.281 -> Z 130.591 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1143.0
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.504 (was 25.146)
+HV:   RT hit[0/1] d=130.09  at 388.9 5.3 1143.0
+HV: RT dist=130.09 refLen=24.64 t=5.281 -> Z 130.592 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1143.0
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.505 (was 25.146)
+HV:   RT hit[0/1] d=130.10  at 388.9 5.3 1143.0
+HV: RT dist=130.10 refLen=24.64 t=5.281 -> Z 130.592 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1143.0
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.506 (was 25.146)
+HV:   RT hit[0/1] d=130.10  at 388.9 5.3 1143.0
+HV: RT dist=130.10 refLen=24.64 t=5.281 -> Z 130.593 (was 25.146)
+HV: CAMOBJ found @3F8FCFCF38 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.00  at 389.0 5.3 1143.0
+HV: LF dist=130.00 refLen=24.63 t=5.278 -> Z 130.507 (was 25.146)
+HV:   RT hit[0/1] d=130.10  at 388.9 5.3 1143.0
+HV: RT dist=130.10 refLen=24.64 t=5.281 -> Z 130.594 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.01  at 389.0 5.3 1143.0
+HV: LF dist=130.01 refLen=24.63 t=5.278 -> Z 130.510 (was 25.146)
+HV:   RT hit[0/1] d=130.10  at 388.9 5.3 1143.0
+HV: RT dist=130.10 refLen=24.64 t=5.281 -> Z 130.596 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.01  at 389.0 5.3 1143.0
+HV: LF dist=130.01 refLen=24.63 t=5.278 -> Z 130.512 (was 25.146)
+HV:   RT hit[0/1] d=130.10  at 388.9 5.3 1143.0
+HV: RT dist=130.10 refLen=24.64 t=5.281 -> Z 130.599 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.01  at 389.0 5.3 1143.0
+HV: LF dist=130.01 refLen=24.63 t=5.279 -> Z 130.515 (was 25.146)
+HV:   RT hit[0/1] d=130.11  at 388.9 5.3 1143.1
+HV: RT dist=130.11 refLen=24.64 t=5.281 -> Z 130.602 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.02  at 389.0 5.3 1143.0
+HV: LF dist=130.02 refLen=24.63 t=5.279 -> Z 130.518 (was 25.146)
+HV:   RT hit[0/1] d=130.11  at 388.9 5.3 1143.1
+HV: RT dist=130.11 refLen=24.64 t=5.281 -> Z 130.604 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.02  at 389.0 5.3 1143.0
+HV: LF dist=130.02 refLen=24.63 t=5.279 -> Z 130.521 (was 25.146)
+HV:   RT hit[0/1] d=130.11  at 388.9 5.3 1143.1
+HV: RT dist=130.11 refLen=24.64 t=5.281 -> Z 130.607 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.02  at 389.0 5.3 1143.0
+HV: LF dist=130.02 refLen=24.63 t=5.279 -> Z 130.524 (was 25.146)
+HV:   RT hit[0/1] d=130.12  at 388.9 5.3 1143.1
+HV: RT dist=130.12 refLen=24.64 t=5.281 -> Z 130.611 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.03  at 389.0 5.3 1143.0
+HV: LF dist=130.03 refLen=24.63 t=5.279 -> Z 130.528 (was 25.146)
+HV:   RT hit[0/1] d=130.12  at 388.9 5.3 1143.1
+HV: RT dist=130.12 refLen=24.64 t=5.282 -> Z 130.615 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.03  at 389.0 5.3 1143.0
+HV: LF dist=130.03 refLen=24.63 t=5.279 -> Z 130.532 (was 25.146)
+HV:   RT hit[0/1] d=130.12  at 388.9 5.3 1143.1
+HV: RT dist=130.12 refLen=24.64 t=5.282 -> Z 130.619 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.03  at 389.0 5.3 1143.0
+HV: LF dist=130.03 refLen=24.63 t=5.279 -> Z 130.536 (was 25.146)
+HV:   RT hit[0/1] d=130.13  at 388.9 5.3 1143.1
+HV: RT dist=130.13 refLen=24.64 t=5.282 -> Z 130.623 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.04  at 389.0 5.3 1143.0
+HV: LF dist=130.04 refLen=24.63 t=5.280 -> Z 130.540 (was 25.146)
+HV:   RT hit[0/1] d=130.13  at 388.9 5.3 1143.1
+HV: RT dist=130.13 refLen=24.64 t=5.282 -> Z 130.627 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.04  at 389.0 5.3 1143.0
+HV: LF dist=130.04 refLen=24.63 t=5.280 -> Z 130.544 (was 25.146)
+HV:   RT hit[0/1] d=130.14  at 388.9 5.3 1143.1
+HV: RT dist=130.14 refLen=24.64 t=5.282 -> Z 130.632 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.05  at 389.0 5.3 1143.0
+HV: LF dist=130.05 refLen=24.63 t=5.280 -> Z 130.549 (was 25.146)
+HV:   RT hit[0/1] d=130.14  at 388.9 5.3 1143.1
+HV: RT dist=130.14 refLen=24.64 t=5.283 -> Z 130.637 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.05  at 389.0 5.3 1143.0
+HV: LF dist=130.05 refLen=24.63 t=5.280 -> Z 130.555 (was 25.146)
+HV:   RT hit[0/1] d=130.15  at 388.9 5.3 1143.1
+HV: RT dist=130.15 refLen=24.64 t=5.283 -> Z 130.642 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.06  at 389.0 5.3 1143.0
+HV: LF dist=130.06 refLen=24.63 t=5.281 -> Z 130.560 (was 25.146)
+HV:   RT hit[0/1] d=130.15  at 388.9 5.3 1143.1
+HV: RT dist=130.15 refLen=24.64 t=5.283 -> Z 130.647 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.07  at 389.0 5.3 1143.0
+HV: LF dist=130.07 refLen=24.63 t=5.281 -> Z 130.565 (was 25.146)
+HV:   RT hit[0/1] d=130.16  at 388.9 5.3 1143.1
+HV: RT dist=130.16 refLen=24.64 t=5.283 -> Z 130.653 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.07  at 389.0 5.3 1143.0
+HV: LF dist=130.07 refLen=24.63 t=5.281 -> Z 130.571 (was 25.146)
+HV:   RT hit[0/1] d=130.17  at 388.9 5.3 1143.1
+HV: RT dist=130.17 refLen=24.64 t=5.284 -> Z 130.659 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.08  at 389.0 5.3 1143.0
+HV: LF dist=130.08 refLen=24.63 t=5.281 -> Z 130.578 (was 25.146)
+HV:   RT hit[0/1] d=130.17  at 388.9 5.3 1143.1
+HV: RT dist=130.17 refLen=24.64 t=5.284 -> Z 130.666 (was 25.146)
+HV: CAMOBJ found @3F8FCFC4F8 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV: --- 0 fields ---
+HV:   LF hit[0/1] d=130.08  at 389.0 5.3 1143.0
+HV: LF dist=130.08 refLen=24.63 t=5.282 -> Z 130.584 (was 25.146)
+HV:   RT hit[0/1] d=130.18  at 388.9 5.3 1143.1
+HV: RT dist=130.18 refLen=24.64 t=5.284 -> Z 130.672 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.09  at 389.0 5.3 1143.0
+HV: LF dist=130.09 refLen=24.63 t=5.282 -> Z 130.590 (was 25.146)
+HV:   RT hit[0/1] d=130.19  at 388.9 5.3 1143.1
+HV: RT dist=130.19 refLen=24.64 t=5.284 -> Z 130.679 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.10  at 389.0 5.3 1143.0
+HV: LF dist=130.10 refLen=24.63 t=5.282 -> Z 130.598 (was 25.146)
+HV:   RT hit[0/1] d=130.19  at 388.9 5.3 1143.1
+HV: RT dist=130.19 refLen=24.64 t=5.285 -> Z 130.686 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.11  at 389.0 5.3 1143.1
+HV: LF dist=130.11 refLen=24.63 t=5.282 -> Z 130.606 (was 25.146)
+HV:   RT hit[0/1] d=130.20  at 388.9 5.3 1143.1
+HV: RT dist=130.20 refLen=24.64 t=5.285 -> Z 130.694 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.12  at 389.0 5.3 1143.1
+HV: LF dist=130.12 refLen=24.63 t=5.283 -> Z 130.614 (was 25.146)
+HV:   RT hit[0/1] d=130.21  at 388.9 5.3 1143.2
+HV: RT dist=130.21 refLen=24.64 t=5.285 -> Z 130.702 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.12  at 389.0 5.3 1143.1
+HV: LF dist=130.12 refLen=24.63 t=5.283 -> Z 130.622 (was 25.146)
+HV:   RT hit[0/1] d=130.22  at 388.9 5.3 1143.2
+HV: RT dist=130.22 refLen=24.64 t=5.286 -> Z 130.711 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.13  at 389.0 5.3 1143.1
+HV: LF dist=130.13 refLen=24.63 t=5.283 -> Z 130.631 (was 25.146)
+HV:   RT hit[0/1] d=130.23  at 388.9 5.3 1143.2
+HV: RT dist=130.23 refLen=24.64 t=5.286 -> Z 130.719 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.14  at 389.0 5.3 1143.1
+HV: LF dist=130.14 refLen=24.63 t=5.284 -> Z 130.638 (was 25.146)
+HV:   RT hit[0/1] d=130.23  at 388.9 5.3 1143.2
+HV: RT dist=130.23 refLen=24.64 t=5.286 -> Z 130.726 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.14  at 389.0 5.3 1143.1
+HV: LF dist=130.14 refLen=24.63 t=5.284 -> Z 130.643 (was 25.146)
+HV:   RT hit[0/1] d=130.24  at 388.9 5.3 1143.2
+HV: RT dist=130.24 refLen=24.64 t=5.287 -> Z 130.731 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.15  at 389.0 5.3 1143.1
+HV: LF dist=130.15 refLen=24.63 t=5.284 -> Z 130.648 (was 25.146)
+HV:   RT hit[0/1] d=130.24  at 388.9 5.3 1143.2
+HV: RT dist=130.24 refLen=24.64 t=5.287 -> Z 130.736 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.16  at 389.0 5.3 1143.1
+HV: LF dist=130.16 refLen=24.63 t=5.284 -> Z 130.653 (was 25.146)
+HV:   RT hit[0/1] d=130.25  at 388.9 5.3 1143.2
+HV: RT dist=130.25 refLen=24.64 t=5.287 -> Z 130.741 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.16  at 389.0 5.3 1143.1
+HV: LF dist=130.16 refLen=24.63 t=5.285 -> Z 130.659 (was 25.146)
+HV:   RT hit[0/1] d=130.25  at 388.9 5.3 1143.2
+HV: RT dist=130.25 refLen=24.64 t=5.287 -> Z 130.746 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.17  at 389.0 5.3 1143.1
+HV: LF dist=130.17 refLen=24.63 t=5.285 -> Z 130.664 (was 25.146)
+HV:   RT hit[0/1] d=130.26  at 388.9 5.3 1143.2
+HV: RT dist=130.26 refLen=24.64 t=5.287 -> Z 130.751 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.17  at 389.0 5.3 1143.1
+HV: LF dist=130.17 refLen=24.63 t=5.285 -> Z 130.669 (was 25.146)
+HV:   RT hit[0/1] d=130.26  at 388.9 5.3 1143.2
+HV: RT dist=130.26 refLen=24.64 t=5.288 -> Z 130.756 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.18  at 389.0 5.3 1143.1
+HV: LF dist=130.18 refLen=24.63 t=5.285 -> Z 130.674 (was 25.146)
+HV:   RT hit[0/1] d=130.27  at 388.9 5.3 1143.2
+HV: RT dist=130.27 refLen=24.64 t=5.288 -> Z 130.761 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.18  at 389.0 5.3 1143.1
+HV: LF dist=130.18 refLen=24.63 t=5.286 -> Z 130.680 (was 25.146)
+HV:   RT hit[0/1] d=130.28  at 388.9 5.3 1143.2
+HV: RT dist=130.28 refLen=24.64 t=5.288 -> Z 130.767 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.19  at 389.0 5.3 1143.1
+HV: LF dist=130.19 refLen=24.63 t=5.286 -> Z 130.685 (was 25.146)
+HV:   RT hit[0/1] d=130.28  at 388.9 5.3 1143.2
+HV: RT dist=130.28 refLen=24.64 t=5.288 -> Z 130.772 (was 25.146)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.19  at 389.0 5.3 1143.1
+HV: LF dist=130.19 refLen=24.63 t=5.286 -> Z 130.690 (was 25.146)
+HV:   RT hit[0/1] d=130.29  at 388.9 5.3 1143.2
+HV: RT dist=130.29 refLen=24.64 t=5.288 -> Z 130.776 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.20  at 389.0 5.3 1143.1
+HV: LF dist=130.20 refLen=24.63 t=5.286 -> Z 130.694 (was 25.146)
+HV:   RT hit[0/1] d=130.29  at 388.9 5.3 1143.2
+HV: RT dist=130.29 refLen=24.64 t=5.289 -> Z 130.780 (was 25.146)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.20  at 389.0 5.3 1143.1
+HV: LF dist=130.20 refLen=24.63 t=5.286 -> Z 130.699 (was 25.146)
+HV:   RT hit[0/1] d=130.29  at 388.9 5.3 1143.2
+HV: RT dist=130.29 refLen=24.64 t=5.289 -> Z 130.784 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.21  at 389.0 5.3 1143.2
+HV: LF dist=130.21 refLen=24.63 t=5.286 -> Z 130.703 (was 25.146)
+HV:   RT hit[0/1] d=130.30  at 388.9 5.3 1143.2
+HV: RT dist=130.30 refLen=24.64 t=5.289 -> Z 130.788 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.21  at 389.0 5.3 1143.2
+HV: LF dist=130.21 refLen=24.63 t=5.287 -> Z 130.708 (was 25.146)
+HV:   RT hit[0/1] d=130.30  at 388.9 5.3 1143.2
+HV: RT dist=130.30 refLen=24.64 t=5.289 -> Z 130.793 (was 25.146)
+HV: heartbeat - 74 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.22  at 389.0 5.3 1143.2
+HV: LF dist=130.22 refLen=24.63 t=5.287 -> Z 130.714 (was 25.146)
+HV:   RT hit[0/1] d=130.31  at 388.9 5.3 1143.2
+HV: RT dist=130.31 refLen=24.64 t=5.289 -> Z 130.799 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.22  at 389.0 5.3 1143.2
+HV: LF dist=130.22 refLen=24.63 t=5.287 -> Z 130.719 (was 25.146)
+HV:   RT hit[0/1] d=130.31  at 388.9 5.3 1143.3
+HV: RT dist=130.31 refLen=24.64 t=5.290 -> Z 130.804 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.23  at 389.0 5.3 1143.2
+HV: LF dist=130.23 refLen=24.63 t=5.287 -> Z 130.724 (was 25.146)
+HV:   RT hit[0/1] d=130.32  at 388.9 5.3 1143.3
+HV: RT dist=130.32 refLen=24.64 t=5.290 -> Z 130.809 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.23  at 389.0 5.3 1143.2
+HV: LF dist=130.23 refLen=24.63 t=5.288 -> Z 130.730 (was 25.146)
+HV:   RT hit[0/1] d=130.32  at 388.9 5.3 1143.3
+HV: RT dist=130.32 refLen=24.64 t=5.290 -> Z 130.815 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.24  at 389.0 5.3 1143.2
+HV: LF dist=130.24 refLen=24.63 t=5.288 -> Z 130.735 (was 25.146)
+HV:   RT hit[0/1] d=130.33  at 388.9 5.3 1143.3
+HV: RT dist=130.33 refLen=24.64 t=5.290 -> Z 130.820 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.24  at 389.0 5.3 1143.2
+HV: LF dist=130.24 refLen=24.63 t=5.288 -> Z 130.741 (was 25.146)
+HV:   RT hit[0/1] d=130.34  at 388.9 5.3 1143.3
+HV: RT dist=130.34 refLen=24.64 t=5.290 -> Z 130.826 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.25  at 389.0 5.3 1143.2
+HV: LF dist=130.25 refLen=24.63 t=5.288 -> Z 130.746 (was 25.146)
+HV:   RT hit[0/1] d=130.34  at 388.9 5.3 1143.3
+HV: RT dist=130.34 refLen=24.64 t=5.291 -> Z 130.832 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.26  at 389.0 5.3 1143.2
+HV: LF dist=130.26 refLen=24.63 t=5.288 -> Z 130.752 (was 25.146)
+HV:   RT hit[0/1] d=130.35  at 388.9 5.3 1143.3
+HV: RT dist=130.35 refLen=24.64 t=5.291 -> Z 130.837 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.26  at 389.0 5.3 1143.2
+HV: LF dist=130.26 refLen=24.63 t=5.289 -> Z 130.757 (was 25.146)
+HV:   RT hit[0/1] d=130.35  at 388.9 5.3 1143.3
+HV: RT dist=130.35 refLen=24.64 t=5.291 -> Z 130.843 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.27  at 389.0 5.3 1143.2
+HV: LF dist=130.27 refLen=24.63 t=5.289 -> Z 130.764 (was 25.146)
+HV:   RT hit[0/1] d=130.36  at 388.9 5.3 1143.3
+HV: RT dist=130.36 refLen=24.64 t=5.291 -> Z 130.850 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.28  at 389.0 5.3 1143.2
+HV: LF dist=130.28 refLen=24.63 t=5.289 -> Z 130.771 (was 25.146)
+HV:   RT hit[0/1] d=130.37  at 388.9 5.3 1143.3
+HV: RT dist=130.37 refLen=24.64 t=5.292 -> Z 130.858 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.28  at 389.0 5.3 1143.2
+HV: LF dist=130.28 refLen=24.63 t=5.290 -> Z 130.778 (was 25.146)
+HV:   RT hit[0/1] d=130.38  at 388.9 5.3 1143.3
+HV: RT dist=130.38 refLen=24.64 t=5.292 -> Z 130.865 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.29  at 389.0 5.3 1143.2
+HV: LF dist=130.29 refLen=24.63 t=5.290 -> Z 130.785 (was 25.146)
+HV:   RT hit[0/1] d=130.38  at 388.9 5.3 1143.3
+HV: RT dist=130.38 refLen=24.64 t=5.292 -> Z 130.872 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.30  at 389.0 5.3 1143.2
+HV: LF dist=130.30 refLen=24.63 t=5.290 -> Z 130.792 (was 25.146)
+HV:   RT hit[0/1] d=130.39  at 388.9 5.3 1143.3
+HV: RT dist=130.39 refLen=24.64 t=5.293 -> Z 130.879 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.30  at 389.0 5.3 1143.2
+HV: LF dist=130.30 refLen=24.63 t=5.290 -> Z 130.796 (was 25.146)
+HV:   RT hit[0/1] d=130.39  at 388.9 5.3 1143.3
+HV: RT dist=130.39 refLen=24.64 t=5.293 -> Z 130.883 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.30  at 389.0 5.3 1143.2
+HV: LF dist=130.30 refLen=24.63 t=5.290 -> Z 130.799 (was 25.146)
+HV:   RT hit[0/1] d=130.40  at 388.9 5.3 1143.3
+HV: RT dist=130.40 refLen=24.64 t=5.293 -> Z 130.887 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.31  at 389.0 5.3 1143.3
+HV: LF dist=130.31 refLen=24.63 t=5.291 -> Z 130.803 (was 25.146)
+HV:   RT hit[0/1] d=130.40  at 388.9 5.3 1143.3
+HV: RT dist=130.40 refLen=24.64 t=5.293 -> Z 130.892 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.31  at 389.0 5.3 1143.3
+HV: LF dist=130.31 refLen=24.63 t=5.291 -> Z 130.807 (was 25.146)
+HV:   RT hit[0/1] d=130.41  at 388.9 5.3 1143.3
+HV: RT dist=130.41 refLen=24.64 t=5.293 -> Z 130.898 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.31  at 389.0 5.3 1143.3
+HV: LF dist=130.31 refLen=24.63 t=5.291 -> Z 130.809 (was 25.146)
+HV:   RT hit[0/1] d=130.41  at 388.9 5.3 1143.4
+HV: RT dist=130.41 refLen=24.64 t=5.293 -> Z 130.901 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.31  at 389.0 5.3 1143.3
+HV: LF dist=130.31 refLen=24.63 t=5.291 -> Z 130.811 (was 25.146)
+HV:   RT hit[0/1] d=130.41  at 388.9 5.3 1143.4
+HV: RT dist=130.41 refLen=24.64 t=5.294 -> Z 130.904 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.32  at 389.0 5.3 1143.3
+HV: LF dist=130.32 refLen=24.63 t=5.291 -> Z 130.812 (was 25.146)
+HV:   RT hit[0/1] d=130.42  at 388.9 5.3 1143.4
+HV: RT dist=130.42 refLen=24.64 t=5.294 -> Z 130.907 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.32  at 389.0 5.3 1143.3
+HV: LF dist=130.32 refLen=24.63 t=5.291 -> Z 130.814 (was 25.146)
+HV:   RT hit[0/1] d=130.42  at 388.9 5.3 1143.4
+HV: RT dist=130.42 refLen=24.64 t=5.294 -> Z 130.910 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.32  at 389.0 5.3 1143.3
+HV: LF dist=130.32 refLen=24.63 t=5.291 -> Z 130.816 (was 25.146)
+HV:   RT hit[0/1] d=130.42  at 388.9 5.3 1143.4
+HV: RT dist=130.42 refLen=24.64 t=5.294 -> Z 130.913 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.32  at 389.0 5.3 1143.3
+HV: LF dist=130.32 refLen=24.63 t=5.291 -> Z 130.819 (was 25.146)
+HV:   RT hit[0/1] d=130.42  at 388.9 5.3 1143.4
+HV: RT dist=130.42 refLen=24.64 t=5.294 -> Z 130.917 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.33  at 389.0 5.3 1143.3
+HV: LF dist=130.33 refLen=24.63 t=5.291 -> Z 130.823 (was 25.146)
+HV:   RT hit[0/1] d=130.43  at 388.9 5.3 1143.4
+HV: RT dist=130.43 refLen=24.64 t=5.294 -> Z 130.922 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV:   LF hit[0/1] d=130.33  at 389.0 5.3 1143.3
+HV: LF dist=130.33 refLen=24.63 t=5.291 -> Z 130.827 (was 25.146)
+HV:   RT hit[0/1] d=130.43  at 388.9 5.3 1143.4
+HV: RT dist=130.43 refLen=24.64 t=5.294 -> Z 130.926 (was 25.146)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV:   +0x080     387.860      8.077   1012.980   POS 
+HV:   +0x090       0.008     -0.000      1.000   DIR
+HV:   +0x094      -0.000      1.000      0.000   DIR
+HV:   +0x120       0.000      0.000      0.998   DIR
+HV:   +0x124       0.000      0.998      0.029   DIR
+HV:   +0x128       0.998      0.029      0.059   DIR
+HV:   +0x138      -0.063      0.695      0.716   DIR
+HV:   +0x13C       0.695      0.716      0.000   DIR
+HV:   +0x148      -0.020     -0.718      0.695   DIR
+HV:   +0x14C      -0.718      0.695      0.000   DIR
+HV:   +0x158     387.894      8.077   1012.981   POS 
+HV:   +0x168       1.000     -0.000     -0.008   DIR
+HV:   +0x174       0.000      0.000      1.000   DIR
+HV:   +0x178       0.000      1.000      0.000   DIR
+HV:   +0x17C       1.000      0.000      0.000   DIR
+HV:   +0x188       0.008     -0.000      1.000   DIR
+HV:   +0x18C      -0.000      1.000      0.000   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCF38 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCEB8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 72 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: VIEW pos=0.00 0.00 0.00 fwd=0.000 0.000 0.000
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV:   +0x080     388.289      8.036   1012.684   POS 
+HV:   +0x090       0.008      0.000      1.000   DIR
+HV:   +0x094       0.000      1.000      0.000   DIR
+HV:   +0x128      -0.023      0.708     -0.705   DIR
+HV:   +0x12C       0.708     -0.705      0.000   DIR
+HV:   +0x138       0.780      0.454      0.431   DIR
+HV:   +0x148       0.626     -0.540     -0.563   DIR
+HV:   +0x158     388.288      8.060   1012.659   POS 
+HV:   +0x168       1.000     -0.000     -0.008   DIR
+HV:   +0x174       0.000      0.000      1.000   DIR
+HV:   +0x178       0.000      1.000     -0.000   DIR
+HV:   +0x17C       1.000     -0.000      0.000   DIR
+HV:   +0x188       0.008      0.000      1.000   DIR
+HV:   +0x18C       0.000      1.000      0.000   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     388.291      8.012   1012.708   POS 
+HV:   +0x1E4       1.000      0.000      0.000   DIR
+HV:   +0x228     388.013      8.939   1012.470   POS 
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV:   +0x080     388.300      8.067   1012.680   POS 
+HV:   +0x090       0.007     -0.000      1.000   DIR
+HV:   +0x094      -0.000      1.000      0.000   DIR
+HV:   +0x128      -0.078      0.711     -0.699   DIR
+HV:   +0x12C       0.711     -0.699      0.000   DIR
+HV:   +0x138       0.749      0.504      0.429   DIR
+HV:   +0x148       0.658     -0.490     -0.572   DIR
+HV:   +0x158     388.297      8.091   1012.656   POS 
+HV:   +0x168       1.000      0.000     -0.007   DIR
+HV:   +0x174       0.000     -0.000      1.000   DIR
+HV:   +0x178      -0.000      1.000      0.000   DIR
+HV:   +0x17C       1.000      0.000      0.000   DIR
+HV:   +0x188       0.007     -0.000      1.000   DIR
+HV:   +0x18C      -0.000      1.000      0.000   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     388.303      8.043   1012.704   POS 
+HV:   +0x1E4       1.000      0.000      0.000   DIR
+HV:   +0x228     388.013      8.939   1012.470   POS 
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 80 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV:   +0x050       0.000      0.000      1.000   DIR
+HV:   +0x054       0.000      1.000      0.000   DIR
+HV:   +0x058       1.000      0.000      0.000   DIR
+HV:   +0x0C0       0.000      0.000      1.000   DIR
+HV:   +0x0C4       0.000      1.000      0.000   DIR
+HV:   +0x0C8       1.000      0.000      0.000   DIR
+HV:   +0x224       0.000      0.975     -0.217   DIR
+HV:   +0x228       0.975     -0.217     -0.050   DIR
+HV:   +0x234       0.000      0.217      0.976   DIR
+HV:   +0x238       0.217      0.976     -0.006   DIR
+HV:   +0x248       0.050     -0.005      0.999   DIR
+HV:   +0x24C      -0.005      0.999      0.000   DIR
+HV:   +0x250       0.999      0.000      0.091   DIR
+HV:   +0x2D8     423.031      1.007   1013.599   POS 
+HV:   +0x2E4       1.000      0.000      0.000   DIR
+HV:   +0x318     423.031      1.007   1013.599   POS 
+HV: --- 16 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCF38 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 81 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: VIEW pos=0.00 0.00 0.00 fwd=0.000 0.000 0.000
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV:   +0x080     387.780      8.149   1012.935   POS 
+HV:   +0x090       0.008      0.000      1.000   DIR
+HV:   +0x094       0.000      1.000      0.000   DIR
+HV:   +0x128       0.948     -0.092      0.304   DIR
+HV:   +0x138      -0.201      0.568      0.798   DIR
+HV:   +0x148      -0.246     -0.818      0.520   DIR
+HV:   +0x158     387.813      8.145   1012.945   POS 
+HV:   +0x168       1.000     -0.000     -0.008   DIR
+HV:   +0x174       0.000      0.000      1.000   DIR
+HV:   +0x178       0.000      1.000     -0.000   DIR
+HV:   +0x17C       1.000     -0.000      0.000   DIR
+HV:   +0x188       0.008      0.000      1.000   DIR
+HV:   +0x18C       0.000      1.000      0.000   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     387.748      8.152   1012.925   POS 
+HV:   +0x1E4       1.000      0.000      0.000   DIR
+HV:   +0x228     388.013      8.939   1012.470   POS 
+HV:   +0x2A0       0.000      0.000      1.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 388.1 7.7 1012.3) ---
+HV:   +0x06C       0.000      0.000   1084.122   POS 
+HV:   +0x160     388.283     10.314   1012.084   POS 
+HV:   +0x170       0.856      0.001      0.516   DIR
+HV:   +0x208      -0.354     -0.027     -0.935   DIR
+HV:   +0x210      -0.935      0.000      0.383   DIR
+HV:   +0x214       0.000      0.383      0.908   DIR
+HV:   +0x218       0.383      0.908     -0.172   DIR
+HV:   +0x228       0.853     -0.419     -0.311   DIR
+HV:   +0x238     388.271     10.312   1012.053   POS 
+HV:   +0x248       0.516      0.000     -0.856   DIR
+HV:   +0x254       0.000     -0.001      1.000   DIR
+HV:   +0x258      -0.001      1.000      0.000   DIR
+HV:   +0x25C       1.000      0.000      0.000   DIR
+HV:   +0x268       0.856      0.001      0.516   DIR
+HV:   +0x284       1.000     -0.000      0.000   DIR
+HV:   +0x2B8     388.295     10.315   1012.116   POS 
+HV:   +0x2C4       1.000     -0.000      0.000   DIR
+HV:   +0x320       0.000      0.000      1.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFC658 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 87 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFC658 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 7.4 1012.5) ---
+HV:   +0x080     387.435      8.089   1012.840   POS 
+HV:   +0x090      -0.707     -0.000      0.707   DIR
+HV:   +0x128       0.532      0.001      0.847   DIR
+HV:   +0x130       0.847      0.000     -0.542   DIR
+HV:   +0x138      -0.542      0.768      0.340   DIR
+HV:   +0x148      -0.650     -0.640      0.410   DIR
+HV:   +0x158     387.454      8.089   1012.868   POS 
+HV:   +0x168       0.707      0.000      0.707   DIR
+HV:   +0x174       0.000     -0.000      1.000   DIR
+HV:   +0x178      -0.000      1.000     -0.000   DIR
+HV:   +0x17C       1.000     -0.000      0.000   DIR
+HV:   +0x188      -0.707     -0.000      0.707   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     387.417      8.089   1012.811   POS 
+HV:   +0x1E4       1.000      0.000      0.000   DIR
+HV:   +0x228     388.013      8.939   1012.470   POS 
+HV:   +0x2A0       0.000      0.000      1.000   DIR
+HV:   +0x2A4       0.000      1.000      0.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 77 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: VIEW pos=0.00 0.00 0.00 fwd=0.000 0.000 0.000
+HV: CAMOBJ found @3F8FCFCF38 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 9.8 1012.5) ---
+HV:   +0x06C       0.000      0.000   1084.260   POS 
+HV:   +0x160     387.632     11.545   1012.723   POS 
+HV:   +0x170      -0.707     -0.001      0.707   DIR
+HV:   +0x208       0.743      0.017      0.669   DIR
+HV:   +0x218      -0.418      0.793      0.444   DIR
+HV:   +0x228      -0.522     -0.609      0.597   DIR
+HV:   +0x238     387.658     11.545   1012.745   POS 
+HV:   +0x248       0.707     -0.000      0.707   DIR
+HV:   +0x254       0.000     -0.001      1.000   DIR
+HV:   +0x258      -0.001      1.000      0.001   DIR
+HV:   +0x25C       1.000      0.001      0.000   DIR
+HV:   +0x268      -0.707     -0.001      0.707   DIR
+HV:   +0x284       1.000     -0.000      0.000   DIR
+HV:   +0x2B8     387.607     11.545   1012.701   POS 
+HV:   +0x2C4       1.000     -0.000      0.000   DIR
+HV:   +0x300       0.000      0.000      1.000   DIR
+HV:   +0x304       0.000      1.000      0.000   DIR
+HV:   +0x308       1.000      0.000      0.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCE28 (vtable HeroCameraManager)
+HV: PROBE aimSource    pos=  386.92    11.28  1013.40 fwd=-0.708  0.000  0.707
+HV: PROBE aimTarget    pos=  385.76     9.96  1014.57 fwd=-0.708  0.000  0.707
+HV: PROBE cameraTarget pos=  387.86     9.96  1012.47 fwd=-0.708  0.000  0.707
+HV: PROBE camera       pos=  387.86     9.94  1012.47 fwd=-0.708 -0.001  0.707
+HV: AIM cam=389.47 12.27 1015.84 fwd=0.000 0.000 1.000 | eye=387.62 11.65 1012.73 | hit=389.47 12.27 1192.08 d=176.2
+HV: CAMOBJ found @3F8FCFD038 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCF38 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMMAT at +0x168  pos=387.65 11.33 1012.64 fwd=-0.679 -0.398 0.618
+HV: using REAL camera pos=387.65 11.33 1012.64 fwd=-0.679 -0.398 0.618
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMMAT at +0x168  pos=387.67 11.23 1012.63 fwd=-0.671 -0.416 0.613
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMMAT at +0x168  pos=387.68 11.12 1012.62 fwd=-0.665 -0.434 0.608
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.8 7.9 1012.5) ---
+HV:   +0x06C       0.000      0.000   1084.223   POS 
+HV:   +0x160     387.554      9.316   1012.739   POS 
+HV:   +0x170      -0.707     -0.001      0.707   DIR
+HV:   +0x208       0.703     -0.005      0.711   DIR
+HV:   +0x218      -0.619      0.488      0.616   DIR
+HV:   +0x228      -0.350     -0.873      0.340   DIR
+HV:   +0x238     387.578      9.316   1012.763   POS 
+HV:   +0x248       0.707      0.001      0.707   DIR
+HV:   +0x254       0.000     -0.001      1.000   DIR
+HV:   +0x258      -0.001      1.000     -0.000   DIR
+HV:   +0x25C       1.000     -0.000      0.000   DIR
+HV:   +0x268      -0.707     -0.001      0.707   DIR
+HV:   +0x284       1.000     -0.000      0.000   DIR
+HV:   +0x2B8     387.530      9.316   1012.715   POS 
+HV:   +0x2C4       1.000      0.000      0.000   DIR
+HV:   +0x340       0.000      0.000      1.000   DIR
+HV:   +0x344       0.000      1.000      0.000   DIR
+HV:   +0x348       1.000      0.000      0.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: heartbeat - 78 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMMAT at +0x168  pos=387.72 11.53 1012.75 fwd=-0.676 -0.401 0.619
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMMAT at +0x168  pos=387.73 11.42 1012.76 fwd=-0.668 -0.419 0.615
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 387.9 8.4 1012.7) ---
+HV:   +0x06C       0.000      0.000   1084.519   POS 
+HV:   +0x160     387.955     10.270   1012.513   POS 
+HV:   +0x170      -0.925     -0.000     -0.379   DIR
+HV:   +0x208      -0.967      0.010      0.254   DIR
+HV:   +0x218      -0.077      0.940     -0.331   DIR
+HV:   +0x21C       0.940     -0.331      0.000   DIR
+HV:   +0x228      -0.242     -0.340     -0.909   DIR
+HV:   +0x238     387.922     10.270   1012.522   POS 
+HV:   +0x248      -0.379     -0.000      0.925   DIR
+HV:   +0x254       0.000     -0.000      1.000   DIR
+HV:   +0x258      -0.000      1.000      0.000   DIR
+HV:   +0x25C       1.000      0.000      0.000   DIR
+HV:   +0x268      -0.925     -0.000     -0.379   DIR
+HV:   +0x284       1.000     -0.000      0.000   DIR
+HV:   +0x2B8     387.988     10.271   1012.504   POS 
+HV:   +0x2C4       1.000      0.000      0.000   DIR
+HV:   +0x360       0.000      0.000      1.000   DIR
+HV:   +0x364       0.000      1.000      0.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: heartbeat - 74 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: VIEW pos=0.00 0.00 0.00 fwd=0.000 0.000 0.000
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD158 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 391.3 13.4 1004.9) ---
+HV:   +0x080     391.574     15.014   1004.119   POS 
+HV:   +0x090       0.275     -0.004     -0.962   DIR
+HV:   +0x128      -0.836     -0.231     -0.498   DIR
+HV:   +0x138       0.183      0.738     -0.650   DIR
+HV:   +0x13C       0.738     -0.650      0.000   DIR
+HV:   +0x148       0.517     -0.635     -0.574   DIR
+HV:   +0x158     391.545     15.006   1004.102   POS 
+HV:   +0x168      -0.962     -0.007     -0.274   DIR
+HV:   +0x174       0.000     -0.006      1.000   DIR
+HV:   +0x178      -0.006      1.000     -0.006   DIR
+HV:   +0x17C       1.000     -0.006      0.000   DIR
+HV:   +0x188       0.275     -0.004     -0.962   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     391.602     15.022   1004.135   POS 
+HV:   +0x270       0.000      0.000      1.000   DIR
+HV:   +0x274       0.000      1.000      0.000   DIR
+HV:   +0x278       1.000      0.000      0.000   DIR
+HV: --- 17 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCE28 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F91BFF2A8 (vtable HeroCameraManager)
+HV: PROBE aimSource    pos=  396.05    13.84   993.53 fwd= 0.351  0.000 -0.936
+HV: PROBE aimTarget    pos=  396.64    12.52   991.98 fwd= 0.351  0.000 -0.936
+HV: PROBE cameraTarget pos=  395.58    12.52   994.77 fwd= 0.351  0.000 -0.936
+HV: PROBE camera       pos=  395.58    12.52   994.77 fwd= 0.351 -0.001 -0.936
+HV: AIM cam=396.94 15.91 998.29 fwd=0.000 0.000 1.000 | eye=395.78 14.10 994.27 | hit=396.94 15.91 1064.87 d=66.6
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 74 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 396.5 11.5 992.7) ---
+HV:   +0x080     396.674     13.136    992.174   POS 
+HV:   +0x090       0.358      0.000     -0.934   DIR
+HV:   +0x128      -0.916     -0.050     -0.397   DIR
+HV:   +0x138       0.227      0.754     -0.616   DIR
+HV:   +0x148       0.330     -0.655     -0.680   DIR
+HV:   +0x158     396.643     13.134    992.161   POS 
+HV:   +0x168      -0.934     -0.000     -0.358   DIR
+HV:   +0x174       0.000     -0.000      1.000   DIR
+HV:   +0x178      -0.000      1.000      0.000   DIR
+HV:   +0x17C       1.000      0.000      0.000   DIR
+HV:   +0x188       0.358      0.000     -0.934   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     396.705     13.138    992.188   POS 
+HV:   +0x270       0.000      0.000      1.000   DIR
+HV:   +0x274       0.000      1.000      0.000   DIR
+HV:   +0x278       1.000      0.000      0.000   DIR
+HV: --- 16 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCE28 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD038 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCE28 (vtable HeroCameraManager)
+HV: PROBE aimSource    pos=  401.16     2.97   981.58 fwd= 0.376  0.000 -0.927
+HV: PROBE aimTarget    pos=  401.79     1.64   980.03 fwd= 0.376  0.000 -0.927
+HV: PROBE cameraTarget pos=  400.66     1.64   982.81 fwd= 0.376  0.000 -0.927
+HV: PROBE camera       pos=  400.66     1.64   982.81 fwd= 0.376  0.000 -0.927
+HV: AIM cam=403.00 4.66 985.08 fwd=0.000 0.000 1.000 | eye=400.79 3.27 982.68 | hit=403.00 4.66 1134.09 d=149.0
+HV: CAMOBJ found @3F8FCFD038 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.8 0.9 982.4) ---
+HV:   +0x080     401.047      2.263    982.114   POS 
+HV:   +0x090       0.377     -0.000     -0.926   DIR
+HV:   +0x128      -0.906     -0.017     -0.423   DIR
+HV:   +0x138       0.256      0.775     -0.578   DIR
+HV:   +0x148       0.337     -0.632     -0.698   DIR
+HV:   +0x158     401.016      2.262    982.100   POS 
+HV:   +0x168      -0.926      0.000     -0.377   DIR
+HV:   +0x174       0.000      0.000      1.000   DIR
+HV:   +0x178       0.000      1.000     -0.000   DIR
+HV:   +0x17C       1.000     -0.000      0.000   DIR
+HV:   +0x188       0.377     -0.000     -0.926   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     401.078      2.264    982.128   POS 
+HV:   +0x1F8     400.849      3.900    982.360   POS 
+HV:   +0x270       0.000      0.000      1.000   DIR
+HV:   +0x274       0.000      1.000      0.000   DIR
+HV:   +0x278       1.000      0.000      0.000   DIR
+HV:   +0x348     400.849      3.900    982.360   POS 
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCE28 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD038 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD0A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 71 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: VIEW pos=0.00 0.00 0.00 fwd=0.000 0.000 0.000
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.8 0.9 982.4) ---
+HV:   +0x080     401.003      1.525    981.921   POS 
+HV:   +0x090       0.376      0.000     -0.926   DIR
+HV:   +0x120       0.000      0.000     -0.993   DIR
+HV:   +0x124       0.000     -0.993      0.068   DIR
+HV:   +0x128      -0.993      0.068     -0.098   DIR
+HV:   +0x138       0.112      0.820     -0.561   DIR
+HV:   +0x13C       0.820     -0.561      0.000   DIR
+HV:   +0x148       0.042     -0.568     -0.822   DIR
+HV:   +0x14C      -0.568     -0.822      0.000   DIR
+HV:   +0x158     400.969      1.527    981.917   POS 
+HV:   +0x168      -0.926     -0.000     -0.376   DIR
+HV:   +0x174       0.000     -0.001      1.000   DIR
+HV:   +0x178      -0.001      1.000      0.000   DIR
+HV:   +0x17C       1.000      0.000      0.000   DIR
+HV:   +0x188       0.376      0.000     -0.926   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     401.037      1.523    981.924   POS 
+HV:   +0x1F8     400.849      3.900    982.360   POS 
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: heartbeat - 86 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.8 0.9 982.4) ---
+HV:   +0x080     400.964      1.510    981.913   POS 
+HV:   +0x090       0.376     -0.001     -0.927   DIR
+HV:   +0x120       0.000      0.000     -0.993   DIR
+HV:   +0x124       0.000     -0.993      0.105   DIR
+HV:   +0x128      -0.993      0.105      0.054   DIR
+HV:   +0x138       0.051      0.791     -0.610   DIR
+HV:   +0x13C       0.791     -0.610      0.000   DIR
+HV:   +0x148      -0.106     -0.603     -0.791   DIR
+HV:   +0x14C      -0.603     -0.791      0.000   DIR
+HV:   +0x158     400.930      1.513    981.915   POS 
+HV:   +0x168      -0.927     -0.000     -0.376   DIR
+HV:   +0x174       0.000     -0.000      1.000   DIR
+HV:   +0x178      -0.000      1.000     -0.001   DIR
+HV:   +0x17C       1.000     -0.001      0.000   DIR
+HV:   +0x188       0.376     -0.001     -0.927   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     400.998      1.506    981.911   POS 
+HV:   +0x1F8     400.849      3.900    982.360   POS 
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFCBC8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.9 0.9 982.3) ---
+HV:   +0x080     401.163      1.707    981.786   POS 
+HV:   +0x090       0.384     -0.000     -0.924   DIR
+HV:   +0x124       0.000     -0.976      0.105   DIR
+HV:   +0x128      -0.976      0.105     -0.191   DIR
+HV:   +0x138       0.211      0.674     -0.708   DIR
+HV:   +0x148       0.054     -0.731     -0.680   DIR
+HV:   +0x14C      -0.731     -0.680      0.000   DIR
+HV:   +0x158     401.130      1.710    981.780   POS 
+HV:   +0x168      -0.924     -0.000     -0.384   DIR
+HV:   +0x174       0.000     -0.000      1.000   DIR
+HV:   +0x178      -0.000      1.000     -0.000   DIR
+HV:   +0x17C       1.000     -0.000      0.000   DIR
+HV:   +0x188       0.384     -0.000     -0.924   DIR
+HV:   +0x1A4       1.000     -0.000      0.000   DIR
+HV:   +0x1D8     401.196      1.704    981.792   POS 
+HV:   +0x1F8     400.882      3.900    982.279   POS 
+HV:   +0x270       0.000      0.000      1.000   DIR
+HV:   +0x274       0.000      1.000      0.000   DIR
+HV: --- 18 fields ---
+HV: CAMOBJ found @3F8FCFD078 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: heartbeat - 88 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: VIEW pos=0.00 0.00 0.00 fwd=0.000 0.000 0.000
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.9 0.9 982.2) ---
+HV:   +0x1B0     401.327      1.688    981.603   POS 
+HV:   +0x1C0       0.383      0.000     -0.924   DIR
+HV:   +0x258      -0.930      0.144     -0.338   DIR
+HV:   +0x268       0.361      0.522     -0.773   DIR
+HV:   +0x278       0.065     -0.841     -0.538   DIR
+HV:   +0x27C      -0.841     -0.538      0.000   DIR
+HV:   +0x288     401.296      1.693    981.592   POS 
+HV:   +0x298      -0.924      0.000     -0.383   DIR
+HV:   +0x2A4       0.000      0.000      1.000   DIR
+HV:   +0x2A8       0.000      1.000      0.000   DIR
+HV:   +0x2AC       1.000      0.000      0.000   DIR
+HV:   +0x2B8       0.383      0.000     -0.924   DIR
+HV:   +0x2D4       1.000     -0.000      0.000   DIR
+HV:   +0x308     401.359      1.684    981.614   POS 
+HV:   +0x314       1.000     -0.000      0.000   DIR
+HV: --- 15 fields ---
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: heartbeat - 88 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.9 0.9 982.2) ---
+HV:   +0x1B0     401.327      1.688    981.603   POS 
+HV:   +0x1C0       0.383      0.000     -0.924   DIR
+HV:   +0x258      -0.930      0.144     -0.338   DIR
+HV:   +0x268       0.361      0.522     -0.773   DIR
+HV:   +0x278       0.065     -0.841     -0.538   DIR
+HV:   +0x27C      -0.841     -0.538      0.000   DIR
+HV:   +0x288     401.296      1.693    981.592   POS 
+HV:   +0x298      -0.924      0.000     -0.383   DIR
+HV:   +0x2A4       0.000      0.000      1.000   DIR
+HV:   +0x2A8       0.000      1.000      0.000   DIR
+HV:   +0x2AC       1.000      0.000      0.000   DIR
+HV:   +0x2B8       0.383      0.000     -0.924   DIR
+HV:   +0x2D4       1.000     -0.000      0.000   DIR
+HV:   +0x308     401.359      1.684    981.614   POS 
+HV:   +0x314       1.000     -0.000      0.000   DIR
+HV: --- 15 fields ---
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: BAIL - NO RESULT from exec
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.9 0.9 982.2) ---
+HV:   +0x1B0     401.327      1.688    981.603   POS 
+HV:   +0x1C0       0.383      0.000     -0.924   DIR
+HV:   +0x258      -0.930      0.144     -0.338   DIR
+HV:   +0x268       0.361      0.522     -0.773   DIR
+HV:   +0x278       0.065     -0.841     -0.538   DIR
+HV:   +0x27C      -0.841     -0.538      0.000   DIR
+HV:   +0x288     401.296      1.693    981.592   POS 
+HV:   +0x298      -0.924      0.000     -0.383   DIR
+HV:   +0x2A4       0.000      0.000      1.000   DIR
+HV:   +0x2A8       0.000      1.000      0.000   DIR
+HV:   +0x2AC       1.000      0.000      0.000   DIR
+HV:   +0x2B8       0.383      0.000     -0.924   DIR
+HV:   +0x2D4       1.000     -0.000      0.000   DIR
+HV:   +0x308     401.359      1.684    981.614   POS 
+HV:   +0x314       1.000     -0.000      0.000   DIR
+HV: --- 15 fields ---
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: heartbeat - 89 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: VIEW pos=0.00 0.00 0.00 fwd=0.000 0.000 0.000
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: BAIL - NO RESULT from exec
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: --- AimManager vec3 fields (player 400.9 0.9 982.2) ---
+HV:   +0x1B0     401.327      1.688    981.603   POS 
+HV:   +0x1C0       0.383      0.000     -0.924   DIR
+HV:   +0x258      -0.930      0.144     -0.338   DIR
+HV:   +0x268       0.361      0.522     -0.773   DIR
+HV:   +0x278       0.065     -0.841     -0.538   DIR
+HV:   +0x27C      -0.841     -0.538      0.000   DIR
+HV:   +0x288     401.296      1.693    981.592   POS 
+HV:   +0x298      -0.924      0.000     -0.383   DIR
+HV:   +0x2A4       0.000      0.000      1.000   DIR
+HV:   +0x2A8       0.000      1.000      0.000   DIR
+HV:   +0x2AC       1.000      0.000      0.000   DIR
+HV:   +0x2B8       0.383      0.000     -0.924   DIR
+HV:   +0x2D4       1.000     -0.000      0.000   DIR
+HV:   +0x308     401.359      1.684    981.614   POS 
+HV:   +0x314       1.000     -0.000      0.000   DIR
+HV: --- 15 fields ---
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: CAMOBJ found @3F8FCFD1A8 (vtable HeroCameraManager)
+HV: heartbeat - 83 casts in last second (hook alive)
+HV: CAMOBJ found @3F8FCFD438 (vtable HeroCameraManager)
